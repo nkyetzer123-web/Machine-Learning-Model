@@ -1,8 +1,29 @@
 {
   "start_capital": 1000.0,
   "cash": 1000.0,
-  "open_positions": {},
+  "open_positions": {
+    "JPM": {
+      "direction": "long",
+      "entry_price": 300.25,
+      "units": 1,
+      "stop": 291.2425,
+      "tp": 318.265,
+      "entry_date": "2026-05-14",
+      "ml_score": 0.7192,
+      "asset_type": "stock"
+    },
+    "MS": {
+      "direction": "long",
+      "entry_price": 193.83,
+      "units": 1,
+      "stop": 188.0151,
+      "tp": 205.4598,
+      "entry_date": "2026-05-14",
+      "ml_score": 0.6717,
+      "asset_type": "stock"
+    }
+  },
   "closed_trades": [],
   "created": "2026-05-14",
-  "last_run": null
+  "last_run": "2026-05-14 10:47 UTC"
 }

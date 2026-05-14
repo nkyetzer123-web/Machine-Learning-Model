@@ -1,0 +1,56 @@
+[
+  {
+    "date": "2026-05-14",
+    "timestamp": "2026-05-14 10:47 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1494.08,
+    "cash": 1000.0,
+    "total_pnl": 494.08,
+    "open_positions": 2,
+    "win_rate": 0.0,
+    "closed_today": [],
+    "opened_today": [
+      {
+        "ticker": "JPM",
+        "direction": "long",
+        "price": 300.25,
+        "units": 1,
+        "ml_score": 0.7192
+      },
+      {
+        "ticker": "MS",
+        "direction": "long",
+        "price": 193.83,
+        "units": 1,
+        "ml_score": 0.6717
+      }
+    ],
+    "actions": [
+      {
+        "action": "OPEN",
+        "ticker": "JPM",
+        "direction": "long",
+        "entry_price": 300.25,
+        "units": 1,
+        "stop": 291.2425,
+        "tp": 318.265,
+        "ml_score": 0.7192
+      },
+      {
+        "action": "OPEN",
+        "ticker": "MS",
+        "direction": "long",
+        "entry_price": 193.83,
+        "units": 1,
+        "stop": 188.0151,
+        "tp": 205.4598,
+        "ml_score": 0.6717
+      }
+    ],
+    "signals_summary": {
+      "buys": 5,
+      "shorts": 0,
+      "watches": 10
+    }
+  }
+]
