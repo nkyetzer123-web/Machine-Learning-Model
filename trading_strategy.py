@@ -1,3 +1,4 @@
+
 """
 trading_strategy.py  —  Stage 2
 =================================
@@ -145,15 +146,15 @@ def save_portfolio(state):
     print(f"    💾  Saved {PORTFOLIO_FILE}")
 
 def portfolio_value(state, current_prices):
-    """Total portfolio value = cash + mark-to-market of open positions."""
+    """Total portfolio value = cash + market value of longs + unrealised P&L of shorts."""
     val = state["cash"]
     for ticker, pos in state["open_positions"].items():
         price = current_prices.get(ticker)
         if price is None: continue
         if pos["direction"] == "long":
-            val += (price - pos["entry_price"]) * pos["units"] + pos["entry_price"] * pos["units"]
+            val += price * pos["units"]                          # full market value (cash was deducted on open)
         else:
-            val += pos["entry_price"] * pos["units"] + (pos["entry_price"] - price) * pos["units"]
+            val += (pos["entry_price"] - price) * pos["units"]  # unrealised short P&L (no cash deducted on open)
     return val
 
 
@@ -368,7 +369,12 @@ def run(tickers, signals_only=False):
 
         if hit_stop or hit_tp or days_held >= FORWARD:
             reason = "Stop-loss" if hit_stop else ("Take-profit" if hit_tp else f"Hold period ({days_held}d)")
-            state["cash"] += pnl
+            # Long: return full exit proceeds (cash was deducted on entry)
+            # Short: add only P&L (no cash was deducted on entry)
+            if direction == "long":
+                state["cash"] += price * pos["units"]
+            else:
+                state["cash"] += pnl
             trade_record = {
                 "ticker": ticker, "asset_type": ASSET_TYPE.get(ticker, "stock"),
                 "direction": direction, "entry_date": pos["entry_date"],
@@ -417,14 +423,25 @@ def run(tickers, signals_only=False):
             units     = calc_units(ticker, risk_amt, stop_dist)
             cost      = units * price
 
+            # 40% cap: no single position should exceed 40% of remaining cash.
+            # Exception: if even 1 share costs >40% but we can still afford it, allow 1 share.
             if cost > state["cash"] * 0.40:
-                units = round((state["cash"] * 0.40) / price, 8) if atype=="crypto" else int((state["cash"]*0.40)/price)
-                cost  = units * price
+                if atype == "crypto":
+                    units = round((state["cash"] * 0.40) / price, 8)
+                else:
+                    units = int((state["cash"] * 0.40) / price)
+                    if units == 0 and price <= state["cash"]:
+                        units = 1  # allow single high-price share if we can afford it
+                cost = units * price
 
             if units <= 0 or cost > state["cash"]: continue
 
             stop = price * (1 + STOP_PCT) if direction == "short" else price * (1 - STOP_PCT)
             tp   = price * (1 - TP_PCT)   if direction == "short" else price * (1 + TP_PCT)
+
+            # Deduct cost from cash for long positions (shorts don't require upfront capital in paper trading)
+            if direction == "long":
+                state["cash"] -= cost
 
             state["open_positions"][ticker] = {
                 "direction":   direction,
@@ -440,7 +457,7 @@ def run(tickers, signals_only=False):
                                   "units": units, "ml_score": round(raw_prob, 4)})
             units_str = f"{units:.8f}" if atype=="crypto" else str(int(units))
             emoji = "🟢" if direction == "long" else "🔴"
-            print(f"    {emoji} OPENED {direction.upper()} {ticker:10s}  @ £{price:.2f}  units={units_str}  stop=£{stop:.2f}  tp=£{tp:.2f}")
+            print(f"    {emoji} OPENED {direction.upper()} {ticker:10s}  @ £{price:.2f}  units={units_str}  cost=£{cost:.2f}  cash_left=£{state['cash']:.2f}")
             log_actions.append({
                 "action": "OPEN", "ticker": ticker, "direction": direction,
                 "entry_price": round(price, 4), "units": units,
