@@ -1,0 +1,42 @@
+name: ML Trading — Daily Run
+
+on:
+  schedule:
+    # 7am UK time = 7am UTC in winter (GMT), 6am UTC in summer (BST)
+    # Running at 6am UTC covers both — always before 8am UK time
+    - cron: '0 6 * * 1-5'   # weekdays only (Mon–Fri)
+
+  # Also allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  run-trading:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run trading strategy
+        run: python trading_strategy.py
+
+      - name: Commit updated files
+        run: |
+          git config user.name  "Trading Bot"
+          git config user.email "bot@trading.local"
+          git add signals.json portfolio_state.json daily_log.json
+          git diff --staged --quiet || git commit -m "Daily run $(date -u '+%Y-%m-%d %H:%M UTC')"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
