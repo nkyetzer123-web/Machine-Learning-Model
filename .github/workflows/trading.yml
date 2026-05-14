@@ -1,0 +1,42 @@
+name: ML Trading — Daily Run
+
+on:
+  schedule:
+    # 6am UTC = 7am UK winter (GMT) / 7am UK summer (BST)
+    - cron: '0 6 * * 1-5'   # weekdays only (Mon–Fri)
+
+  # Allow manual trigger from the Actions tab
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  run-trading:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # needed to push updated files back
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run trading strategy
+        run: python trading_strategy.py
+
+      - name: Commit and push updated files
+        run: |
+          git config user.name  "Trading Bot"
+          git config user.email "bot@trading.local"
+          git add signals.json portfolio_state.json daily_log.json
+          git diff --staged --quiet || git commit -m "Daily run $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
