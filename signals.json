@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-14 10:47 UTC",
+  "generated": "2026-05-14 11:01 UTC",
   "regime": "Bullish",
-  "model_accuracy": 0.5104,
+  "model_accuracy": 0.5147,
   "tickers_run": 46,
   "signals": [
     {
@@ -80,13 +80,13 @@
       "ticker": "XRP-USD",
       "asset_type": "crypto",
       "signal": "WATCH",
-      "probability": 0.6381,
-      "close": 1.4316,
-      "rsi": 62.8,
+      "probability": 0.6416,
+      "close": 1.4361,
+      "rsi": 63.4,
       "vol_ratio": 1.15,
       "volatility": 0.0158,
       "model_acc": 0.4955,
-      "example_units": "232.83971727"
+      "example_units": "232.11011205"
     },
     {
       "ticker": "TSLA",
@@ -141,12 +141,12 @@
       "asset_type": "crypto",
       "signal": "WATCH",
       "probability": 0.5776,
-      "close": 90.82,
-      "rsi": 66.9,
+      "close": 91.04,
+      "rsi": 67.5,
       "vol_ratio": 1.14,
       "volatility": 0.0205,
       "model_acc": 0.35,
-      "example_units": "3.67026354"
+      "example_units": "3.66139422"
     },
     {
       "ticker": "MA",
@@ -179,7 +179,7 @@
       "probability": 0.5566,
       "close": 121.14,
       "rsi": 78.2,
-      "vol_ratio": 0.23,
+      "vol_ratio": 0.24,
       "volatility": 0.0052,
       "model_acc": 0.4966,
       "example_units": "2"
@@ -189,10 +189,10 @@
       "asset_type": "etf",
       "signal": "SKIP",
       "probability": 0.2145,
-      "close": 1018.915,
-      "rsi": 46.8,
+      "close": 1019.2,
+      "rsi": 46.9,
       "vol_ratio": 0.23,
-      "volatility": 0.009,
+      "volatility": 0.0091,
       "model_acc": 0.777,
       "example_units": "1"
     },
@@ -212,25 +212,13 @@
       "ticker": "ETH-USD",
       "asset_type": "crypto",
       "signal": "SKIP",
-      "probability": 0.3038,
-      "close": 2258.0,
-      "rsi": 50.2,
-      "vol_ratio": 0.99,
+      "probability": 0.3085,
+      "close": 2262.1001,
+      "rsi": 50.8,
+      "vol_ratio": 0.98,
       "volatility": 0.0148,
       "model_acc": 0.4682,
-      "example_units": "0.14762327"
-    },
-    {
-      "ticker": "SPY",
-      "asset_type": "etf",
-      "signal": "SKIP",
-      "probability": 0.3331,
-      "close": 742.31,
-      "rsi": 81.9,
-      "vol_ratio": 0.9,
-      "volatility": 0.0062,
-      "model_acc": 0.3605,
-      "example_units": "1"
+      "example_units": "0.14735570"
     },
     {
       "ticker": "JNJ",
@@ -321,9 +309,9 @@
       "asset_type": "etf",
       "signal": "SKIP",
       "probability": 0.4413,
-      "close": 104.735,
+      "close": 104.73,
       "rsi": 88.7,
-      "vol_ratio": 0.38,
+      "vol_ratio": 0.4,
       "volatility": 0.0046,
       "model_acc": 0.6419,
       "example_units": "3"
@@ -344,25 +332,25 @@
       "ticker": "BNB-USD",
       "asset_type": "crypto",
       "signal": "SKIP",
-      "probability": 0.4465,
-      "close": 671.37,
-      "rsi": 81.6,
-      "vol_ratio": 1.11,
+      "probability": 0.4461,
+      "close": 673.05,
+      "rsi": 82.0,
+      "vol_ratio": 1.1,
       "volatility": 0.0122,
       "model_acc": 0.5091,
-      "example_units": "0.49649722"
+      "example_units": "0.49525791"
     },
     {
       "ticker": "BTC-USD",
       "asset_type": "crypto",
       "signal": "SKIP",
-      "probability": 0.4498,
-      "close": 79445.0234,
-      "rsi": 63.2,
+      "probability": 0.451,
+      "close": 79550.0078,
+      "rsi": 63.5,
       "vol_ratio": 1.15,
       "volatility": 0.0126,
       "model_acc": 0.4818,
-      "example_units": "0.00419577"
+      "example_units": "0.00419024"
     },
     {
       "ticker": "AVGO",
@@ -401,6 +389,18 @@
       "example_units": "1"
     },
     {
+      "ticker": "QQQ",
+      "asset_type": "etf",
+      "signal": "SKIP",
+      "probability": 0.468,
+      "close": 714.71,
+      "rsi": 84.0,
+      "vol_ratio": 1.0,
+      "volatility": 0.01,
+      "model_acc": 0.5374,
+      "example_units": "1"
+    },
+    {
       "ticker": "ABBV",
       "asset_type": "stock",
       "signal": "SKIP",
@@ -422,18 +422,6 @@
       "vol_ratio": 1.1,
       "volatility": 0.0213,
       "model_acc": 0.4354,
-      "example_units": "1"
-    },
-    {
-      "ticker": "QQQ",
-      "asset_type": "etf",
-      "signal": "SKIP",
-      "probability": 0.4838,
-      "close": 714.71,
-      "rsi": 84.0,
-      "vol_ratio": 1.0,
-      "volatility": 0.01,
-      "model_acc": 0.551,
       "example_units": "1"
     },
     {
@@ -507,6 +495,18 @@
       "volatility": 0.0155,
       "model_acc": 0.5578,
       "example_units": "2"
+    },
+    {
+      "ticker": "SPY",
+      "asset_type": "etf",
+      "signal": "SKIP",
+      "probability": 0.5182,
+      "close": 742.31,
+      "rsi": 81.9,
+      "vol_ratio": 0.9,
+      "volatility": 0.0062,
+      "model_acc": 0.5714,
+      "example_units": "1"
     },
     {
       "ticker": "QCOM",
