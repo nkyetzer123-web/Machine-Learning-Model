@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-14 11:01 UTC",
+  "generated": "2026-05-14 11:18 UTC",
   "regime": "Bullish",
-  "model_accuracy": 0.5147,
+  "model_accuracy": 0.5156,
   "tickers_run": 46,
   "signals": [
     {
@@ -81,12 +81,12 @@
       "asset_type": "crypto",
       "signal": "WATCH",
       "probability": 0.6416,
-      "close": 1.4361,
-      "rsi": 63.4,
-      "vol_ratio": 1.15,
+      "close": 1.4364,
+      "rsi": 63.5,
+      "vol_ratio": 1.14,
       "volatility": 0.0158,
       "model_acc": 0.4955,
-      "example_units": "232.11011205"
+      "example_units": "232.06162654"
     },
     {
       "ticker": "TSLA",
@@ -141,12 +141,12 @@
       "asset_type": "crypto",
       "signal": "WATCH",
       "probability": 0.5776,
-      "close": 91.04,
-      "rsi": 67.5,
-      "vol_ratio": 1.14,
+      "close": 90.9,
+      "rsi": 67.1,
+      "vol_ratio": 1.13,
       "volatility": 0.0205,
       "model_acc": 0.35,
-      "example_units": "3.66139422"
+      "example_units": "3.66703331"
     },
     {
       "ticker": "MA",
@@ -176,10 +176,10 @@
       "ticker": "IWDA.AS",
       "asset_type": "etf",
       "signal": "WATCH",
-      "probability": 0.5566,
-      "close": 121.14,
-      "rsi": 78.2,
-      "vol_ratio": 0.24,
+      "probability": 0.5558,
+      "close": 121.22,
+      "rsi": 78.4,
+      "vol_ratio": 0.25,
       "volatility": 0.0052,
       "model_acc": 0.4966,
       "example_units": "2"
@@ -189,9 +189,9 @@
       "asset_type": "etf",
       "signal": "SKIP",
       "probability": 0.2145,
-      "close": 1019.2,
-      "rsi": 46.9,
-      "vol_ratio": 0.23,
+      "close": 1020.44,
+      "rsi": 47.5,
+      "vol_ratio": 0.25,
       "volatility": 0.0091,
       "model_acc": 0.777,
       "example_units": "1"
@@ -212,13 +212,13 @@
       "ticker": "ETH-USD",
       "asset_type": "crypto",
       "signal": "SKIP",
-      "probability": 0.3085,
-      "close": 2262.1001,
-      "rsi": 50.8,
+      "probability": 0.3038,
+      "close": 2258.6699,
+      "rsi": 50.3,
       "vol_ratio": 0.98,
       "volatility": 0.0148,
       "model_acc": 0.4682,
-      "example_units": "0.14735570"
+      "example_units": "0.14757948"
     },
     {
       "ticker": "JNJ",
@@ -308,9 +308,9 @@
       "ticker": "VUSA.L",
       "asset_type": "etf",
       "signal": "SKIP",
-      "probability": 0.4413,
-      "close": 104.73,
-      "rsi": 88.7,
+      "probability": 0.4364,
+      "close": 104.805,
+      "rsi": 88.8,
       "vol_ratio": 0.4,
       "volatility": 0.0046,
       "model_acc": 0.6419,
@@ -333,24 +333,24 @@
       "asset_type": "crypto",
       "signal": "SKIP",
       "probability": 0.4461,
-      "close": 673.05,
-      "rsi": 82.0,
+      "close": 672.83,
+      "rsi": 81.9,
       "vol_ratio": 1.1,
       "volatility": 0.0122,
       "model_acc": 0.5091,
-      "example_units": "0.49525791"
+      "example_units": "0.49541983"
     },
     {
       "ticker": "BTC-USD",
       "asset_type": "crypto",
       "signal": "SKIP",
-      "probability": 0.451,
-      "close": 79550.0078,
-      "rsi": 63.5,
-      "vol_ratio": 1.15,
+      "probability": 0.4498,
+      "close": 79463.7969,
+      "rsi": 63.2,
+      "vol_ratio": 1.14,
       "volatility": 0.0126,
       "model_acc": 0.4818,
-      "example_units": "0.00419024"
+      "example_units": "0.00419478"
     },
     {
       "ticker": "AVGO",
@@ -449,6 +449,18 @@
       "example_units": "1"
     },
     {
+      "ticker": "SPY",
+      "asset_type": "etf",
+      "signal": "SKIP",
+      "probability": 0.5025,
+      "close": 742.31,
+      "rsi": 81.9,
+      "vol_ratio": 0.9,
+      "volatility": 0.0062,
+      "model_acc": 0.6122,
+      "example_units": "1"
+    },
+    {
       "ticker": "COST",
       "asset_type": "stock",
       "signal": "SKIP",
@@ -495,18 +507,6 @@
       "volatility": 0.0155,
       "model_acc": 0.5578,
       "example_units": "2"
-    },
-    {
-      "ticker": "SPY",
-      "asset_type": "etf",
-      "signal": "SKIP",
-      "probability": 0.5182,
-      "close": 742.31,
-      "rsi": 81.9,
-      "vol_ratio": 0.9,
-      "volatility": 0.0062,
-      "model_acc": 0.5714,
-      "example_units": "1"
     },
     {
       "ticker": "QCOM",
