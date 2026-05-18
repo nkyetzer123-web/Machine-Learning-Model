@@ -1,5 +1,80 @@
 [
   {
+    "date": "2026-05-18",
+    "timestamp": "2026-05-18 09:54 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 993.49,
+    "cash": 54.3,
+    "total_pnl": -6.51,
+    "open_positions": 3,
+    "win_rate": 0.0,
+    "closed_today": [
+      {
+        "ticker": "XRP-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-05-15",
+        "exit_date": "2026-05-18",
+        "entry_price": 1.4706,
+        "exit_price": 1.3822,
+        "units": 18.84038139,
+        "pnl": -1.67,
+        "return": -0.0601,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.6561
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "price": 1.3822,
+        "units": 19.64368522,
+        "ml_score": 0.7806
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "META",
+        "direction": "long",
+        "unrealised_pnl": -2.4,
+        "days_held": 4
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JPM",
+        "direction": "long",
+        "unrealised_pnl": -2.44,
+        "days_held": 4
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "pnl": -1.67,
+        "return": -0.0601,
+        "exit_reason": "Stop-loss",
+        "exit_price": 1.3822
+      },
+      {
+        "action": "OPEN",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "entry_price": 1.3822,
+        "units": 19.64368522,
+        "stop": 1.3407,
+        "tp": 1.4651,
+        "ml_score": 0.7806
+      }
+    ],
+    "signals_summary": {
+      "buys": 7,
+      "shorts": 0,
+      "watches": 9
+    }
+  },
+  {
     "date": "2026-05-15",
     "timestamp": "2026-05-15 08:45 UTC",
     "regime": "Bullish",
