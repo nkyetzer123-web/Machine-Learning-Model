@@ -1,5 +1,113 @@
 [
   {
+    "date": "2026-06-03",
+    "timestamp": "2026-06-03 10:51 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 977.17,
+    "cash": 52.71,
+    "total_pnl": -22.83,
+    "open_positions": 3,
+    "win_rate": 0.2,
+    "closed_today": [
+      {
+        "ticker": "META",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-05-14",
+        "exit_date": "2026-06-03",
+        "entry_price": 616.63,
+        "exit_price": 597.63,
+        "units": 1,
+        "pnl": -19.0,
+        "return": -0.0308,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.7505
+      },
+      {
+        "ticker": "JPM",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-05-14",
+        "exit_date": "2026-06-03",
+        "entry_price": 300.25,
+        "exit_price": 300.96,
+        "units": 1,
+        "pnl": 0.71,
+        "return": 0.0024,
+        "exit_reason": "Hold period (20d)",
+        "ml_score": 0.7192
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "META",
+        "direction": "long",
+        "price": 597.63,
+        "units": 1,
+        "ml_score": 0.9055
+      },
+      {
+        "ticker": "JPM",
+        "direction": "long",
+        "price": 300.96,
+        "units": 1,
+        "ml_score": 0.8019
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "META",
+        "direction": "long",
+        "pnl": -19.0,
+        "return": -0.0308,
+        "exit_reason": "Stop-loss",
+        "exit_price": 597.63
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "JPM",
+        "direction": "long",
+        "pnl": 0.71,
+        "return": 0.0024,
+        "exit_reason": "Hold period (20d)",
+        "exit_price": 300.96
+      },
+      {
+        "action": "HOLD",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "unrealised_pnl": -0.49,
+        "days_held": 1
+      },
+      {
+        "action": "OPEN",
+        "ticker": "META",
+        "direction": "long",
+        "entry_price": 597.63,
+        "units": 1,
+        "stop": 579.7011,
+        "tp": 633.4878,
+        "ml_score": 0.9055
+      },
+      {
+        "action": "OPEN",
+        "ticker": "JPM",
+        "direction": "long",
+        "entry_price": 300.96,
+        "units": 1,
+        "stop": 291.9312,
+        "tp": 319.0176,
+        "ml_score": 0.8019
+      }
+    ],
+    "signals_summary": {
+      "buys": 7,
+      "shorts": 0,
+      "watches": 9
+    }
+  },
+  {
     "date": "2026-06-02",
     "timestamp": "2026-06-02 10:15 UTC",
     "regime": "Bullish",

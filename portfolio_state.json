@@ -1,27 +1,7 @@
 {
   "start_capital": 1000,
-  "cash": 52.70964467372838,
+  "cash": 52.70964467372835,
   "open_positions": {
-    "META": {
-      "direction": "long",
-      "entry_price": 616.63,
-      "units": 1,
-      "stop": 598.1311,
-      "tp": 653.6278,
-      "entry_date": "2026-05-14",
-      "ml_score": 0.7505,
-      "asset_type": "stock"
-    },
-    "JPM": {
-      "direction": "long",
-      "entry_price": 300.25,
-      "units": 1,
-      "stop": 291.2425,
-      "tp": 318.265,
-      "entry_date": "2026-05-14",
-      "ml_score": 0.7192,
-      "asset_type": "stock"
-    },
     "XRP-USD": {
       "direction": "long",
       "entry_price": 1.2623,
@@ -31,6 +11,26 @@
       "entry_date": "2026-06-02",
       "ml_score": 0.7435,
       "asset_type": "crypto"
+    },
+    "META": {
+      "direction": "long",
+      "entry_price": 597.63,
+      "units": 1,
+      "stop": 579.7011,
+      "tp": 633.4878,
+      "entry_date": "2026-06-03",
+      "ml_score": 0.9055,
+      "asset_type": "stock"
+    },
+    "JPM": {
+      "direction": "long",
+      "entry_price": 300.96,
+      "units": 1,
+      "stop": 291.9312,
+      "tp": 319.0176,
+      "entry_date": "2026-06-03",
+      "ml_score": 0.8019,
+      "asset_type": "stock"
     }
   },
   "closed_trades": [
@@ -75,8 +75,36 @@
       "return": -0.051,
       "exit_reason": "Stop-loss",
       "ml_score": 0.7713
+    },
+    {
+      "ticker": "META",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-05-14",
+      "exit_date": "2026-06-03",
+      "entry_price": 616.63,
+      "exit_price": 597.63,
+      "units": 1,
+      "pnl": -19.0,
+      "return": -0.0308,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.7505
+    },
+    {
+      "ticker": "JPM",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-05-14",
+      "exit_date": "2026-06-03",
+      "entry_price": 300.25,
+      "exit_price": 300.96,
+      "units": 1,
+      "pnl": 0.71,
+      "return": 0.0024,
+      "exit_reason": "Hold period (20d)",
+      "ml_score": 0.7192
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-06-02 10:15 UTC"
+  "last_run": "2026-06-03 10:51 UTC"
 }
