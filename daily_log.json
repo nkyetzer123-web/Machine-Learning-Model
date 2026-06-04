@@ -1,5 +1,97 @@
 [
   {
+    "date": "2026-06-04",
+    "timestamp": "2026-06-04 09:51 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1000.61,
+    "cash": 34.13,
+    "total_pnl": 0.61,
+    "open_positions": 4,
+    "win_rate": 0.1667,
+    "closed_today": [
+      {
+        "ticker": "XRP-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-06-02",
+        "exit_date": "2026-06-04",
+        "entry_price": 1.2623,
+        "exit_price": 1.1531,
+        "units": 20.87841403,
+        "pnl": -2.28,
+        "return": -0.0865,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.7435
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "price": 1.1531,
+        "units": 22.19655516,
+        "ml_score": 0.7174
+      },
+      {
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "price": 62936.9297,
+        "units": 0.00027112,
+        "ml_score": 0.7098
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "pnl": -2.28,
+        "return": -0.0865,
+        "exit_reason": "Stop-loss",
+        "exit_price": 1.1531
+      },
+      {
+        "action": "HOLD",
+        "ticker": "META",
+        "direction": "long",
+        "unrealised_pnl": 25.35,
+        "days_held": 1
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JPM",
+        "direction": "long",
+        "unrealised_pnl": -0.11,
+        "days_held": 1
+      },
+      {
+        "action": "OPEN",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "entry_price": 1.1531,
+        "units": 22.19655516,
+        "stop": 1.1185,
+        "tp": 1.2223,
+        "ml_score": 0.7174
+      },
+      {
+        "action": "OPEN",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "entry_price": 62936.9297,
+        "units": 0.00027112,
+        "stop": 61048.8218,
+        "tp": 66713.1455,
+        "ml_score": 0.7098
+      }
+    ],
+    "signals_summary": {
+      "buys": 6,
+      "shorts": 0,
+      "watches": 10
+    }
+  },
+  {
     "date": "2026-06-03",
     "timestamp": "2026-06-03 10:51 UTC",
     "regime": "Bullish",
