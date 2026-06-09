@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-06-09",
+    "timestamp": "2026-06-09 09:35 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 973.36,
+    "cash": 34.13,
+    "total_pnl": -26.64,
+    "open_positions": 4,
+    "win_rate": 0.1667,
+    "closed_today": [],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "META",
+        "direction": "long",
+        "unrealised_pnl": -12.24,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JPM",
+        "direction": "long",
+        "unrealised_pnl": 10.15,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.16,
+        "days_held": 5
+      },
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": -0.08,
+        "days_held": 5
+      }
+    ],
+    "signals_summary": {
+      "buys": 4,
+      "shorts": 0,
+      "watches": 13
+    }
+  },
+  {
     "date": "2026-06-08",
     "timestamp": "2026-06-08 10:29 UTC",
     "regime": "Bullish",
