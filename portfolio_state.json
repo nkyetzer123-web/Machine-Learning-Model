@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 34.12623574174843,
+  "cash": 58.6889447063494,
   "open_positions": {
     "META": {
       "direction": "long",
@@ -21,16 +21,6 @@
       "entry_date": "2026-06-03",
       "ml_score": 0.8019,
       "asset_type": "stock"
-    },
-    "XRP-USD": {
-      "direction": "long",
-      "entry_price": 1.1531,
-      "units": 22.19655516,
-      "stop": 1.1185,
-      "tp": 1.2223,
-      "entry_date": "2026-06-04",
-      "ml_score": 0.7174,
-      "asset_type": "crypto"
     },
     "BTC-USD": {
       "direction": "long",
@@ -127,8 +117,22 @@
       "return": -0.0865,
       "exit_reason": "Stop-loss",
       "ml_score": 0.7435
+    },
+    {
+      "ticker": "XRP-USD",
+      "asset_type": "crypto",
+      "direction": "long",
+      "entry_date": "2026-06-04",
+      "exit_date": "2026-06-10",
+      "entry_price": 1.1531,
+      "exit_price": 1.1066,
+      "units": 22.19655516,
+      "pnl": -1.03,
+      "return": -0.0403,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.7174
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-06-09 09:35 UTC"
+  "last_run": "2026-06-10 09:51 UTC"
 }
