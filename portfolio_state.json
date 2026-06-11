@@ -1,17 +1,7 @@
 {
   "start_capital": 1000,
-  "cash": 58.6889447063494,
+  "cash": 31.888941654591576,
   "open_positions": {
-    "META": {
-      "direction": "long",
-      "entry_price": 597.63,
-      "units": 1,
-      "stop": 579.7011,
-      "tp": 633.4878,
-      "entry_date": "2026-06-03",
-      "ml_score": 0.9055,
-      "asset_type": "stock"
-    },
     "JPM": {
       "direction": "long",
       "entry_price": 300.96,
@@ -31,6 +21,26 @@
       "entry_date": "2026-06-04",
       "ml_score": 0.7098,
       "asset_type": "crypto"
+    },
+    "MSFT": {
+      "direction": "long",
+      "entry_price": 397.36,
+      "units": 1,
+      "stop": 385.4392,
+      "tp": 421.2016,
+      "entry_date": "2026-06-11",
+      "ml_score": 0.8141,
+      "asset_type": "stock"
+    },
+    "NVDA": {
+      "direction": "long",
+      "entry_price": 200.42,
+      "units": 1,
+      "stop": 194.4074,
+      "tp": 212.4452,
+      "entry_date": "2026-06-11",
+      "ml_score": 0.7413,
+      "asset_type": "stock"
     }
   },
   "closed_trades": [
@@ -131,8 +141,22 @@
       "return": -0.0403,
       "exit_reason": "Stop-loss",
       "ml_score": 0.7174
+    },
+    {
+      "ticker": "META",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-06-03",
+      "exit_date": "2026-06-11",
+      "entry_price": 597.63,
+      "exit_price": 570.98,
+      "units": 1,
+      "pnl": -26.65,
+      "return": -0.0446,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.9055
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-06-10 09:51 UTC"
+  "last_run": "2026-06-11 10:16 UTC"
 }

@@ -1,5 +1,97 @@
 [
   {
+    "date": "2026-06-11",
+    "timestamp": "2026-06-11 10:16 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 955.84,
+    "cash": 31.89,
+    "total_pnl": -44.16,
+    "open_positions": 4,
+    "win_rate": 0.125,
+    "closed_today": [
+      {
+        "ticker": "META",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-06-03",
+        "exit_date": "2026-06-11",
+        "entry_price": 597.63,
+        "exit_price": 570.98,
+        "units": 1,
+        "pnl": -26.65,
+        "return": -0.0446,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.9055
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "MSFT",
+        "direction": "long",
+        "price": 397.36,
+        "units": 1,
+        "ml_score": 0.8141
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "long",
+        "price": 200.42,
+        "units": 1,
+        "ml_score": 0.7413
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "META",
+        "direction": "long",
+        "pnl": -26.65,
+        "return": -0.0446,
+        "exit_reason": "Stop-loss",
+        "exit_price": 570.98
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JPM",
+        "direction": "long",
+        "unrealised_pnl": 8.18,
+        "days_held": 8
+      },
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": -0.03,
+        "days_held": 7
+      },
+      {
+        "action": "OPEN",
+        "ticker": "MSFT",
+        "direction": "long",
+        "entry_price": 397.36,
+        "units": 1,
+        "stop": 385.4392,
+        "tp": 421.2016,
+        "ml_score": 0.8141
+      },
+      {
+        "action": "OPEN",
+        "ticker": "NVDA",
+        "direction": "long",
+        "entry_price": 200.42,
+        "units": 1,
+        "stop": 194.4074,
+        "tp": 212.4452,
+        "ml_score": 0.7413
+      }
+    ],
+    "signals_summary": {
+      "buys": 5,
+      "shorts": 0,
+      "watches": 11
+    }
+  },
+  {
     "date": "2026-06-10",
     "timestamp": "2026-06-10 09:51 UTC",
     "regime": "Bearish",
