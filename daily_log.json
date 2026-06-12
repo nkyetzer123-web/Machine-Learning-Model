@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-06-12",
+    "timestamp": "2026-06-12 10:04 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 957.84,
+    "cash": 31.89,
+    "total_pnl": -42.16,
+    "open_positions": 4,
+    "win_rate": 0.125,
+    "closed_today": [],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "JPM",
+        "direction": "long",
+        "unrealised_pnl": 12.53,
+        "days_held": 9
+      },
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.19,
+        "days_held": 8
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": -7.02,
+        "days_held": 1
+      },
+      {
+        "action": "HOLD",
+        "ticker": "NVDA",
+        "direction": "long",
+        "unrealised_pnl": 4.45,
+        "days_held": 1
+      }
+    ],
+    "signals_summary": {
+      "buys": 5,
+      "shorts": 0,
+      "watches": 13
+    }
+  },
+  {
     "date": "2026-06-11",
     "timestamp": "2026-06-11 10:16 UTC",
     "regime": "Bullish",
