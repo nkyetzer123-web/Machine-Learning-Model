@@ -1,5 +1,69 @@
 [
   {
+    "date": "2026-06-15",
+    "timestamp": "2026-06-15 11:56 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 966.48,
+    "cash": 352.61,
+    "total_pnl": -33.52,
+    "open_positions": 3,
+    "win_rate": 0.2222,
+    "closed_today": [
+      {
+        "ticker": "JPM",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-06-03",
+        "exit_date": "2026-06-15",
+        "entry_price": 300.96,
+        "exit_price": 320.72,
+        "units": 1,
+        "pnl": 19.76,
+        "return": 0.0657,
+        "exit_reason": "Take-profit",
+        "ml_score": 0.8019
+      }
+    ],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "JPM",
+        "direction": "long",
+        "pnl": 19.76,
+        "return": 0.0657,
+        "exit_reason": "Take-profit",
+        "exit_price": 320.72
+      },
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.87,
+        "days_held": 11
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": -6.62,
+        "days_held": 4
+      },
+      {
+        "action": "HOLD",
+        "ticker": "NVDA",
+        "direction": "long",
+        "unrealised_pnl": 4.77,
+        "days_held": 4
+      }
+    ],
+    "signals_summary": {
+      "buys": 4,
+      "shorts": 0,
+      "watches": 14
+    }
+  },
+  {
     "date": "2026-06-12",
     "timestamp": "2026-06-12 10:04 UTC",
     "regime": "Bullish",

@@ -1,17 +1,7 @@
 {
   "start_capital": 1000,
-  "cash": 31.888941654591576,
+  "cash": 352.6089428752947,
   "open_positions": {
-    "JPM": {
-      "direction": "long",
-      "entry_price": 300.96,
-      "units": 1,
-      "stop": 291.9312,
-      "tp": 319.0176,
-      "entry_date": "2026-06-03",
-      "ml_score": 0.8019,
-      "asset_type": "stock"
-    },
     "BTC-USD": {
       "direction": "long",
       "entry_price": 62936.9297,
@@ -155,8 +145,22 @@
       "return": -0.0446,
       "exit_reason": "Stop-loss",
       "ml_score": 0.9055
+    },
+    {
+      "ticker": "JPM",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-06-03",
+      "exit_date": "2026-06-15",
+      "entry_price": 300.96,
+      "exit_price": 320.72,
+      "units": 1,
+      "pnl": 19.76,
+      "return": 0.0657,
+      "exit_reason": "Take-profit",
+      "ml_score": 0.8019
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-06-12 10:04 UTC"
+  "last_run": "2026-06-15 11:56 UTC"
 }
