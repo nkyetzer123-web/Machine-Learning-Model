@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-06-16",
+    "timestamp": "2026-06-16 11:03 UTC",
+    "regime": "Bearish",
+    "portfolio_value": NaN,
+    "cash": 352.61,
+    "total_pnl": NaN,
+    "open_positions": 3,
+    "win_rate": 0.2222,
+    "closed_today": [],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.98,
+        "days_held": 12
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": NaN,
+        "days_held": 5
+      },
+      {
+        "action": "HOLD",
+        "ticker": "NVDA",
+        "direction": "long",
+        "unrealised_pnl": NaN,
+        "days_held": 5
+      }
+    ],
+    "signals_summary": {
+      "buys": 0,
+      "shorts": 1,
+      "watches": 0
+    }
+  },
+  {
     "date": "2026-06-15",
     "timestamp": "2026-06-15 11:56 UTC",
     "regime": "Bullish",
