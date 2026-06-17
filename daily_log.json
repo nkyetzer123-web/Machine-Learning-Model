@@ -1,5 +1,63 @@
 [
   {
+    "date": "2026-06-17",
+    "timestamp": "2026-06-17 10:48 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 971.42,
+    "cash": 273.89,
+    "total_pnl": -28.58,
+    "open_positions": 4,
+    "win_rate": 0.2222,
+    "closed_today": [],
+    "opened_today": [
+      {
+        "ticker": "NFLX",
+        "direction": "long",
+        "price": 78.72,
+        "units": 1,
+        "ml_score": 0.7167
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.51,
+        "days_held": 13
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": -3.53,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "NVDA",
+        "direction": "long",
+        "unrealised_pnl": 6.99,
+        "days_held": 6
+      },
+      {
+        "action": "OPEN",
+        "ticker": "NFLX",
+        "direction": "long",
+        "entry_price": 78.72,
+        "units": 1,
+        "stop": 76.3584,
+        "tp": 83.4432,
+        "ml_score": 0.7167
+      }
+    ],
+    "signals_summary": {
+      "buys": 4,
+      "shorts": 0,
+      "watches": 12
+    }
+  },
+  {
     "date": "2026-06-16",
     "timestamp": "2026-06-16 11:03 UTC",
     "regime": "Bearish",
