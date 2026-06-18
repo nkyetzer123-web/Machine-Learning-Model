@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 273.8889416545916,
+  "cash": 85.2189282268572,
   "open_positions": {
     "BTC-USD": {
       "direction": "long",
@@ -11,16 +11,6 @@
       "entry_date": "2026-06-04",
       "ml_score": 0.7098,
       "asset_type": "crypto"
-    },
-    "MSFT": {
-      "direction": "long",
-      "entry_price": 397.36,
-      "units": 1,
-      "stop": 385.4392,
-      "tp": 421.2016,
-      "entry_date": "2026-06-11",
-      "ml_score": 0.8141,
-      "asset_type": "stock"
     },
     "NVDA": {
       "direction": "long",
@@ -40,6 +30,16 @@
       "tp": 83.4432,
       "entry_date": "2026-06-17",
       "ml_score": 0.7167,
+      "asset_type": "stock"
+    },
+    "META": {
+      "direction": "long",
+      "entry_price": 567.58,
+      "units": 1,
+      "stop": 550.5526,
+      "tp": 601.6348,
+      "entry_date": "2026-06-18",
+      "ml_score": 0.8482,
       "asset_type": "stock"
     }
   },
@@ -169,8 +169,22 @@
       "return": 0.0657,
       "exit_reason": "Take-profit",
       "ml_score": 0.8019
+    },
+    {
+      "ticker": "MSFT",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-06-11",
+      "exit_date": "2026-06-18",
+      "entry_price": 397.36,
+      "exit_price": 378.91,
+      "units": 1,
+      "pnl": -18.45,
+      "return": -0.0464,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.8141
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-06-17 10:48 UTC"
+  "last_run": "2026-06-18 10:15 UTC"
 }

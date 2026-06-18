@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-06-18",
+    "timestamp": "2026-06-18 10:15 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 951.74,
+    "cash": 85.22,
+    "total_pnl": -48.26,
+    "open_positions": 4,
+    "win_rate": 0.2,
+    "closed_today": [
+      {
+        "ticker": "MSFT",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-06-11",
+        "exit_date": "2026-06-18",
+        "entry_price": 397.36,
+        "exit_price": 378.91,
+        "units": 1,
+        "pnl": -18.45,
+        "return": -0.0464,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.8141
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "META",
+        "direction": "long",
+        "price": 567.58,
+        "units": 1,
+        "ml_score": 0.8482
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.27,
+        "days_held": 14
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "MSFT",
+        "direction": "long",
+        "pnl": -18.45,
+        "return": -0.0464,
+        "exit_reason": "Stop-loss",
+        "exit_price": 378.91
+      },
+      {
+        "action": "HOLD",
+        "ticker": "NVDA",
+        "direction": "long",
+        "unrealised_pnl": 4.23,
+        "days_held": 7
+      },
+      {
+        "action": "HOLD",
+        "ticker": "NFLX",
+        "direction": "long",
+        "unrealised_pnl": -1.76,
+        "days_held": 1
+      },
+      {
+        "action": "OPEN",
+        "ticker": "META",
+        "direction": "long",
+        "entry_price": 567.58,
+        "units": 1,
+        "stop": 550.5526,
+        "tp": 601.6348,
+        "ml_score": 0.8482
+      }
+    ],
+    "signals_summary": {
+      "buys": 6,
+      "shorts": 0,
+      "watches": 12
+    }
+  },
+  {
     "date": "2026-06-17",
     "timestamp": "2026-06-17 10:48 UTC",
     "regime": "Bullish",
