@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-06-24",
+    "timestamp": "2026-06-24 08:59 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 937.79,
+    "cash": 81.6,
+    "total_pnl": -62.21,
+    "open_positions": 4,
+    "win_rate": 0.1667,
+    "closed_today": [
+      {
+        "ticker": "BTC-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-06-04",
+        "exit_date": "2026-06-24",
+        "entry_price": 62936.9297,
+        "exit_price": 62712.3711,
+        "units": 0.00027112,
+        "pnl": -0.06,
+        "return": -0.0036,
+        "exit_reason": "Hold period (20d)",
+        "ml_score": 0.7098
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "price": 62712.3711,
+        "units": 0.0006506,
+        "ml_score": 0.7784
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "pnl": -0.06,
+        "return": -0.0036,
+        "exit_reason": "Hold period (20d)",
+        "exit_price": 62712.3711
+      },
+      {
+        "action": "HOLD",
+        "ticker": "NVDA",
+        "direction": "long",
+        "unrealised_pnl": -0.38,
+        "days_held": 13
+      },
+      {
+        "action": "HOLD",
+        "ticker": "META",
+        "direction": "long",
+        "unrealised_pnl": -5.38,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "SOL-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.44,
+        "days_held": 1
+      },
+      {
+        "action": "OPEN",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "entry_price": 62712.3711,
+        "units": 0.0006506,
+        "stop": 60831.0,
+        "tp": 66475.1134,
+        "ml_score": 0.7784
+      }
+    ],
+    "signals_summary": {
+      "buys": 7,
+      "shorts": 0,
+      "watches": 12
+    }
+  },
+  {
     "date": "2026-06-23",
     "timestamp": "2026-06-23 09:31 UTC",
     "regime": "Bullish",

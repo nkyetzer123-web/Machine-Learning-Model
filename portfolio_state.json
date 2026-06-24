@@ -1,17 +1,7 @@
 {
   "start_capital": 1000,
-  "cash": 105.39928397537955,
+  "cash": 81.6011933927233,
   "open_positions": {
-    "BTC-USD": {
-      "direction": "long",
-      "entry_price": 62936.9297,
-      "units": 0.00027112,
-      "stop": 61048.8218,
-      "tp": 66713.1455,
-      "entry_date": "2026-06-04",
-      "ml_score": 0.7098,
-      "asset_type": "crypto"
-    },
     "NVDA": {
       "direction": "long",
       "entry_price": 200.42,
@@ -40,6 +30,16 @@
       "tp": 72.9386,
       "entry_date": "2026-06-23",
       "ml_score": 0.8294,
+      "asset_type": "crypto"
+    },
+    "BTC-USD": {
+      "direction": "long",
+      "entry_price": 62712.3711,
+      "units": 0.0006506,
+      "stop": 60831.0,
+      "tp": 66475.1134,
+      "entry_date": "2026-06-24",
+      "ml_score": 0.7784,
       "asset_type": "crypto"
     }
   },
@@ -197,8 +197,22 @@
       "return": -0.0742,
       "exit_reason": "Stop-loss",
       "ml_score": 0.7167
+    },
+    {
+      "ticker": "BTC-USD",
+      "asset_type": "crypto",
+      "direction": "long",
+      "entry_date": "2026-06-04",
+      "exit_date": "2026-06-24",
+      "entry_price": 62936.9297,
+      "exit_price": 62712.3711,
+      "units": 0.00027112,
+      "pnl": -0.06,
+      "return": -0.0036,
+      "exit_reason": "Hold period (20d)",
+      "ml_score": 0.7098
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-06-23 09:31 UTC"
+  "last_run": "2026-06-24 08:59 UTC"
 }
