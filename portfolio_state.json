@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 81.6011933927233,
+  "cash": 207.17512189514522,
   "open_positions": {
     "NVDA": {
       "direction": "long",
@@ -10,16 +10,6 @@
       "tp": 212.4452,
       "entry_date": "2026-06-11",
       "ml_score": 0.7413,
-      "asset_type": "stock"
-    },
-    "META": {
-      "direction": "long",
-      "entry_price": 567.58,
-      "units": 1,
-      "stop": 550.5526,
-      "tp": 601.6348,
-      "entry_date": "2026-06-18",
-      "ml_score": 0.8482,
       "asset_type": "stock"
     },
     "SOL-USD": {
@@ -32,14 +22,24 @@
       "ml_score": 0.8294,
       "asset_type": "crypto"
     },
+    "MSFT": {
+      "direction": "long",
+      "entry_price": 352.83,
+      "units": 1,
+      "stop": 342.2451,
+      "tp": 373.9998,
+      "entry_date": "2026-06-26",
+      "ml_score": 0.7595,
+      "asset_type": "stock"
+    },
     "BTC-USD": {
       "direction": "long",
-      "entry_price": 62712.3711,
-      "units": 0.0006506,
-      "stop": 60831.0,
-      "tp": 66475.1134,
-      "entry_date": "2026-06-24",
-      "ml_score": 0.7784,
+      "entry_price": 60131.7812,
+      "units": 0.00172268,
+      "stop": 58327.8278,
+      "tp": 63739.6881,
+      "entry_date": "2026-06-26",
+      "ml_score": 0.7149,
       "asset_type": "crypto"
     }
   },
@@ -211,8 +211,36 @@
       "return": -0.0036,
       "exit_reason": "Hold period (20d)",
       "ml_score": 0.7098
+    },
+    {
+      "ticker": "META",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-06-18",
+      "exit_date": "2026-06-26",
+      "entry_price": 567.58,
+      "exit_price": 542.87,
+      "units": 1,
+      "pnl": -24.71,
+      "return": -0.0435,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.8482
+    },
+    {
+      "ticker": "BTC-USD",
+      "asset_type": "crypto",
+      "direction": "long",
+      "entry_date": "2026-06-24",
+      "exit_date": "2026-06-26",
+      "entry_price": 62712.3711,
+      "exit_price": 60131.7812,
+      "units": 0.0006506,
+      "pnl": -1.68,
+      "return": -0.0411,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.7784
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-06-25 08:54 UTC"
+  "last_run": "2026-06-26 08:57 UTC"
 }

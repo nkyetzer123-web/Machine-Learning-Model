@@ -1,5 +1,120 @@
 [
   {
+    "date": "2026-06-26",
+    "timestamp": "2026-06-26 08:57 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 912.83,
+    "cash": 207.18,
+    "total_pnl": -87.17,
+    "open_positions": 4,
+    "win_rate": 0.1429,
+    "closed_today": [
+      {
+        "ticker": "META",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-06-18",
+        "exit_date": "2026-06-26",
+        "entry_price": 567.58,
+        "exit_price": 542.87,
+        "units": 1,
+        "pnl": -24.71,
+        "return": -0.0435,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.8482
+      },
+      {
+        "ticker": "BTC-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-06-24",
+        "exit_date": "2026-06-26",
+        "entry_price": 62712.3711,
+        "exit_price": 60131.7812,
+        "units": 0.0006506,
+        "pnl": -1.68,
+        "return": -0.0411,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.7784
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "MSFT",
+        "direction": "long",
+        "price": 352.83,
+        "units": 1,
+        "ml_score": 0.7595
+      },
+      {
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "price": 60131.7812,
+        "units": 0.00172268,
+        "ml_score": 0.7149
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "NVDA",
+        "direction": "long",
+        "unrealised_pnl": -4.68,
+        "days_held": 15
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "META",
+        "direction": "long",
+        "pnl": -24.71,
+        "return": -0.0435,
+        "exit_reason": "Stop-loss",
+        "exit_price": 542.87
+      },
+      {
+        "action": "HOLD",
+        "ticker": "SOL-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.8,
+        "days_held": 3
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "pnl": -1.68,
+        "return": -0.0411,
+        "exit_reason": "Stop-loss",
+        "exit_price": 60131.7812
+      },
+      {
+        "action": "OPEN",
+        "ticker": "MSFT",
+        "direction": "long",
+        "entry_price": 352.83,
+        "units": 1,
+        "stop": 342.2451,
+        "tp": 373.9998,
+        "ml_score": 0.7595
+      },
+      {
+        "action": "OPEN",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "entry_price": 60131.7812,
+        "units": 0.00172268,
+        "stop": 58327.8278,
+        "tp": 63739.6881,
+        "ml_score": 0.7149
+      }
+    ],
+    "signals_summary": {
+      "buys": 7,
+      "shorts": 0,
+      "watches": 17
+    }
+  },
+  {
     "date": "2026-06-25",
     "timestamp": "2026-06-25 08:54 UTC",
     "regime": "Bullish",
