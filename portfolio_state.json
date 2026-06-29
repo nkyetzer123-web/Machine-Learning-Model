@@ -1,27 +1,7 @@
 {
   "start_capital": 1000,
-  "cash": 207.17512189514522,
+  "cash": 201.10693555907727,
   "open_positions": {
-    "NVDA": {
-      "direction": "long",
-      "entry_price": 200.42,
-      "units": 1,
-      "stop": 194.4074,
-      "tp": 212.4452,
-      "entry_date": "2026-06-11",
-      "ml_score": 0.7413,
-      "asset_type": "stock"
-    },
-    "SOL-USD": {
-      "direction": "long",
-      "entry_price": 68.81,
-      "units": 0.76587187,
-      "stop": 66.7457,
-      "tp": 72.9386,
-      "entry_date": "2026-06-23",
-      "ml_score": 0.8294,
-      "asset_type": "crypto"
-    },
     "MSFT": {
       "direction": "long",
       "entry_price": 352.83,
@@ -41,6 +21,16 @@
       "entry_date": "2026-06-26",
       "ml_score": 0.7149,
       "asset_type": "crypto"
+    },
+    "JNJ": {
+      "direction": "long",
+      "entry_price": 254.66,
+      "units": 1,
+      "stop": 247.0202,
+      "tp": 269.9396,
+      "entry_date": "2026-06-29",
+      "ml_score": 0.755,
+      "asset_type": "stock"
     }
   },
   "closed_trades": [
@@ -239,8 +229,36 @@
       "return": -0.0411,
       "exit_reason": "Stop-loss",
       "ml_score": 0.7784
+    },
+    {
+      "ticker": "NVDA",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-06-11",
+      "exit_date": "2026-06-29",
+      "entry_price": 200.42,
+      "exit_price": 192.53,
+      "units": 1,
+      "pnl": -7.89,
+      "return": -0.0394,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.7413
+    },
+    {
+      "ticker": "SOL-USD",
+      "asset_type": "crypto",
+      "direction": "long",
+      "entry_date": "2026-06-23",
+      "exit_date": "2026-06-29",
+      "entry_price": 68.81,
+      "exit_price": 73.2,
+      "units": 0.76587187,
+      "pnl": 3.36,
+      "return": 0.0638,
+      "exit_reason": "Take-profit",
+      "ml_score": 0.8294
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-06-26 08:57 UTC"
+  "last_run": "2026-06-29 10:48 UTC"
 }

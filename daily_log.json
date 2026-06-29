@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-06-29",
+    "timestamp": "2026-06-29 10:48 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 932.09,
+    "cash": 201.11,
+    "total_pnl": -67.91,
+    "open_positions": 3,
+    "win_rate": 0.1875,
+    "closed_today": [
+      {
+        "ticker": "NVDA",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-06-11",
+        "exit_date": "2026-06-29",
+        "entry_price": 200.42,
+        "exit_price": 192.53,
+        "units": 1,
+        "pnl": -7.89,
+        "return": -0.0394,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.7413
+      },
+      {
+        "ticker": "SOL-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-06-23",
+        "exit_date": "2026-06-29",
+        "entry_price": 68.81,
+        "exit_price": 73.2,
+        "units": 0.76587187,
+        "pnl": 3.36,
+        "return": 0.0638,
+        "exit_reason": "Take-profit",
+        "ml_score": 0.8294
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "JNJ",
+        "direction": "long",
+        "price": 254.66,
+        "units": 1,
+        "ml_score": 0.755
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "NVDA",
+        "direction": "long",
+        "pnl": -7.89,
+        "return": -0.0394,
+        "exit_reason": "Stop-loss",
+        "exit_price": 192.53
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "SOL-USD",
+        "direction": "long",
+        "pnl": 3.36,
+        "return": 0.0638,
+        "exit_reason": "Take-profit",
+        "exit_price": 73.2
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": 20.14,
+        "days_held": 3
+      },
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": -0.23,
+        "days_held": 3
+      },
+      {
+        "action": "OPEN",
+        "ticker": "JNJ",
+        "direction": "long",
+        "entry_price": 254.66,
+        "units": 1,
+        "stop": 247.0202,
+        "tp": 269.9396,
+        "ml_score": 0.755
+      }
+    ],
+    "signals_summary": {
+      "buys": 7,
+      "shorts": 0,
+      "watches": 13
+    }
+  },
+  {
     "date": "2026-06-26",
     "timestamp": "2026-06-26 08:57 UTC",
     "regime": "Bullish",
