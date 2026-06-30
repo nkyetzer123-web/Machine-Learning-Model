@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 201.10693555907727,
+  "cash": 134.0712900754479,
   "open_positions": {
     "MSFT": {
       "direction": "long",
@@ -31,6 +31,16 @@
       "entry_date": "2026-06-29",
       "ml_score": 0.755,
       "asset_type": "stock"
+    },
+    "SOL-USD": {
+      "direction": "long",
+      "entry_price": 73.57,
+      "units": 0.91118181,
+      "stop": 71.3629,
+      "tp": 77.9842,
+      "entry_date": "2026-06-30",
+      "ml_score": 0.7586,
+      "asset_type": "crypto"
     }
   },
   "closed_trades": [
@@ -260,5 +270,5 @@
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-06-29 10:48 UTC"
+  "last_run": "2026-06-30 09:26 UTC"
 }

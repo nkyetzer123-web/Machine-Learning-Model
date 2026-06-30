@@ -1,5 +1,63 @@
 [
   {
+    "date": "2026-06-30",
+    "timestamp": "2026-06-30 09:26 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 930.2,
+    "cash": 134.07,
+    "total_pnl": -69.8,
+    "open_positions": 4,
+    "win_rate": 0.1875,
+    "closed_today": [],
+    "opened_today": [
+      {
+        "ticker": "SOL-USD",
+        "direction": "long",
+        "price": 73.57,
+        "units": 0.91118181,
+        "ml_score": 0.7586
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": 15.74,
+        "days_held": 4
+      },
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": -1.58,
+        "days_held": 4
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": 3.85,
+        "days_held": 1
+      },
+      {
+        "action": "OPEN",
+        "ticker": "SOL-USD",
+        "direction": "long",
+        "entry_price": 73.57,
+        "units": 0.91118181,
+        "stop": 71.3629,
+        "tp": 77.9842,
+        "ml_score": 0.7586
+      }
+    ],
+    "signals_summary": {
+      "buys": 8,
+      "shorts": 0,
+      "watches": 12
+    }
+  },
+  {
     "date": "2026-06-29",
     "timestamp": "2026-06-29 10:48 UTC",
     "regime": "Bullish",
