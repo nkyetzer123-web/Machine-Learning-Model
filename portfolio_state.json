@@ -1,17 +1,7 @@
 {
   "start_capital": 1000,
-  "cash": 134.0712900754479,
+  "cash": 64.28415925906222,
   "open_positions": {
-    "MSFT": {
-      "direction": "long",
-      "entry_price": 352.83,
-      "units": 1,
-      "stop": 342.2451,
-      "tp": 373.9998,
-      "entry_date": "2026-06-26",
-      "ml_score": 0.7595,
-      "asset_type": "stock"
-    },
     "BTC-USD": {
       "direction": "long",
       "entry_price": 60131.7812,
@@ -32,15 +22,25 @@
       "ml_score": 0.755,
       "asset_type": "stock"
     },
-    "SOL-USD": {
+    "MSFT": {
       "direction": "long",
-      "entry_price": 73.57,
-      "units": 0.91118181,
-      "stop": 71.3629,
-      "tp": 77.9842,
-      "entry_date": "2026-06-30",
-      "ml_score": 0.7586,
-      "asset_type": "crypto"
+      "entry_price": 384.28,
+      "units": 1,
+      "stop": 372.7516,
+      "tp": 407.3368,
+      "entry_date": "2026-07-02",
+      "ml_score": 0.7872,
+      "asset_type": "stock"
+    },
+    "PEP": {
+      "direction": "long",
+      "entry_price": 141.16,
+      "units": 1,
+      "stop": 136.9252,
+      "tp": 149.6296,
+      "entry_date": "2026-07-02",
+      "ml_score": 0.7597,
+      "asset_type": "stock"
     }
   },
   "closed_trades": [
@@ -267,8 +267,36 @@
       "return": 0.0638,
       "exit_reason": "Take-profit",
       "ml_score": 0.8294
+    },
+    {
+      "ticker": "MSFT",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-06-26",
+      "exit_date": "2026-07-02",
+      "entry_price": 352.83,
+      "exit_price": 384.28,
+      "units": 1,
+      "pnl": 31.45,
+      "return": 0.0891,
+      "exit_reason": "Take-profit",
+      "ml_score": 0.7595
+    },
+    {
+      "ticker": "SOL-USD",
+      "asset_type": "crypto",
+      "direction": "long",
+      "entry_date": "2026-06-30",
+      "exit_date": "2026-07-02",
+      "entry_price": 73.57,
+      "exit_price": 78.33,
+      "units": 0.91118181,
+      "pnl": 4.34,
+      "return": 0.0647,
+      "exit_reason": "Take-profit",
+      "ml_score": 0.7586
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-07-01 09:38 UTC"
+  "last_run": "2026-07-02 08:49 UTC"
 }
