@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-07-07",
+    "timestamp": "2026-07-07 09:34 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 962.36,
+    "cash": 64.28,
+    "total_pnl": -37.64,
+    "open_positions": 4,
+    "win_rate": 0.2778,
+    "closed_today": [],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": 5.13,
+        "days_held": 11
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": 4.67,
+        "days_held": 8
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": 2.46,
+        "days_held": 5
+      },
+      {
+        "action": "HOLD",
+        "ticker": "PEP",
+        "direction": "long",
+        "unrealised_pnl": 2.13,
+        "days_held": 5
+      }
+    ],
+    "signals_summary": {
+      "buys": 6,
+      "shorts": 0,
+      "watches": 17
+    }
+  },
+  {
     "date": "2026-07-06",
     "timestamp": "2026-07-06 10:09 UTC",
     "regime": "Bullish",
