@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-07-10",
+    "timestamp": "2026-07-10 09:27 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 956.41,
+    "cash": 116.73,
+    "total_pnl": -43.59,
+    "open_positions": 4,
+    "win_rate": 0.3158,
+    "closed_today": [
+      {
+        "ticker": "BTC-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-06-26",
+        "exit_date": "2026-07-10",
+        "entry_price": 60131.7812,
+        "exit_price": 64324.6094,
+        "units": 0.00172268,
+        "pnl": 7.22,
+        "return": 0.0697,
+        "exit_reason": "Take-profit",
+        "ml_score": 0.7149
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "price": 64324.6094,
+        "units": 0.00090735,
+        "ml_score": 0.687
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "pnl": 7.22,
+        "return": 0.0697,
+        "exit_reason": "Take-profit",
+        "exit_price": 64324.6094
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": 4.44,
+        "days_held": 11
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": 0.08,
+        "days_held": 8
+      },
+      {
+        "action": "HOLD",
+        "ticker": "PEP",
+        "direction": "long",
+        "unrealised_pnl": -3.3,
+        "days_held": 8
+      },
+      {
+        "action": "OPEN",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "entry_price": 64324.6094,
+        "units": 0.00090735,
+        "stop": 62394.8711,
+        "tp": 68184.0859,
+        "ml_score": 0.687
+      }
+    ],
+    "signals_summary": {
+      "buys": 2,
+      "shorts": 0,
+      "watches": 20
+    }
+  },
+  {
     "date": "2026-07-09",
     "timestamp": "2026-07-09 09:31 UTC",
     "regime": "Bullish",
