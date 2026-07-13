@@ -1,5 +1,70 @@
 [
   {
+    "date": "2026-07-13",
+    "timestamp": "2026-07-13 09:17 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 953.4,
+    "cash": 77.82,
+    "total_pnl": -46.6,
+    "open_positions": 5,
+    "win_rate": 0.3158,
+    "closed_today": [],
+    "opened_today": [
+      {
+        "ticker": "ETH-USD",
+        "direction": "long",
+        "price": 1785.63,
+        "units": 0.02179062,
+        "ml_score": 0.7105
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": 2.32,
+        "days_held": 14
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": 0.82,
+        "days_held": 11
+      },
+      {
+        "action": "HOLD",
+        "ticker": "PEP",
+        "direction": "long",
+        "unrealised_pnl": -3.78,
+        "days_held": 11
+      },
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": -1.15,
+        "days_held": 3
+      },
+      {
+        "action": "OPEN",
+        "ticker": "ETH-USD",
+        "direction": "long",
+        "entry_price": 1785.63,
+        "units": 0.02179062,
+        "stop": 1732.0611,
+        "tp": 1892.7678,
+        "ml_score": 0.7105
+      }
+    ],
+    "signals_summary": {
+      "buys": 1,
+      "shorts": 0,
+      "watches": 19
+    }
+  },
+  {
     "date": "2026-07-10",
     "timestamp": "2026-07-10 09:27 UTC",
     "regime": "Bullish",
