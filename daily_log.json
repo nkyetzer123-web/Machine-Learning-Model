@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-07-14",
+    "timestamp": "2026-07-14 07:55 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 960.19,
+    "cash": 89.53,
+    "total_pnl": -39.81,
+    "open_positions": 5,
+    "win_rate": 0.3,
+    "closed_today": [
+      {
+        "ticker": "BTC-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-07-10",
+        "exit_date": "2026-07-14",
+        "entry_price": 64324.6094,
+        "exit_price": 62239.1211,
+        "units": 0.00090735,
+        "pnl": -1.89,
+        "return": -0.0324,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.687
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "price": 1.0655,
+        "units": 42.01318511,
+        "ml_score": 0.7666
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": 3.11,
+        "days_held": 15
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": 6.71,
+        "days_held": 12
+      },
+      {
+        "action": "HOLD",
+        "ticker": "PEP",
+        "direction": "long",
+        "unrealised_pnl": -2.67,
+        "days_held": 12
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "pnl": -1.89,
+        "return": -0.0324,
+        "exit_reason": "Stop-loss",
+        "exit_price": 62239.1211
+      },
+      {
+        "action": "HOLD",
+        "ticker": "ETH-USD",
+        "direction": "long",
+        "unrealised_pnl": -0.26,
+        "days_held": 1
+      },
+      {
+        "action": "OPEN",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "entry_price": 1.0655,
+        "units": 42.01318511,
+        "stop": 1.0335,
+        "tp": 1.1294,
+        "ml_score": 0.7666
+      }
+    ],
+    "signals_summary": {
+      "buys": 4,
+      "shorts": 0,
+      "watches": 16
+    }
+  },
+  {
     "date": "2026-07-13",
     "timestamp": "2026-07-13 09:17 UTC",
     "regime": "Bullish",

@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 77.81995812378148,
+  "cash": 89.52841643682623,
   "open_positions": {
     "JNJ": {
       "direction": "long",
@@ -32,16 +32,6 @@
       "ml_score": 0.7597,
       "asset_type": "stock"
     },
-    "BTC-USD": {
-      "direction": "long",
-      "entry_price": 64324.6094,
-      "units": 0.00090735,
-      "stop": 62394.8711,
-      "tp": 68184.0859,
-      "entry_date": "2026-07-10",
-      "ml_score": 0.687,
-      "asset_type": "crypto"
-    },
     "ETH-USD": {
       "direction": "long",
       "entry_price": 1785.63,
@@ -50,6 +40,16 @@
       "tp": 1892.7678,
       "entry_date": "2026-07-13",
       "ml_score": 0.7105,
+      "asset_type": "crypto"
+    },
+    "XRP-USD": {
+      "direction": "long",
+      "entry_price": 1.0655,
+      "units": 42.01318511,
+      "stop": 1.0335,
+      "tp": 1.1294,
+      "entry_date": "2026-07-14",
+      "ml_score": 0.7666,
       "asset_type": "crypto"
     }
   },
@@ -319,8 +319,22 @@
       "return": 0.0697,
       "exit_reason": "Take-profit",
       "ml_score": 0.7149
+    },
+    {
+      "ticker": "BTC-USD",
+      "asset_type": "crypto",
+      "direction": "long",
+      "entry_date": "2026-07-10",
+      "exit_date": "2026-07-14",
+      "entry_price": 64324.6094,
+      "exit_price": 62239.1211,
+      "units": 0.00090735,
+      "pnl": -1.89,
+      "return": -0.0324,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.687
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-07-13 09:17 UTC"
+  "last_run": "2026-07-14 07:55 UTC"
 }
