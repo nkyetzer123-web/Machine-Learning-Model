@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-07-15",
+    "timestamp": "2026-07-15 08:00 UTC",
+    "regime": "Bearish",
+    "portfolio_value": NaN,
+    "cash": 89.53,
+    "total_pnl": NaN,
+    "open_positions": 5,
+    "win_rate": 0.3,
+    "closed_today": [],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": NaN,
+        "days_held": 16
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": NaN,
+        "days_held": 13
+      },
+      {
+        "action": "HOLD",
+        "ticker": "PEP",
+        "direction": "long",
+        "unrealised_pnl": NaN,
+        "days_held": 13
+      },
+      {
+        "action": "HOLD",
+        "ticker": "ETH-USD",
+        "direction": "long",
+        "unrealised_pnl": 1.83,
+        "days_held": 2
+      },
+      {
+        "action": "HOLD",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "unrealised_pnl": 1.6,
+        "days_held": 1
+      }
+    ],
+    "signals_summary": {
+      "buys": 0,
+      "shorts": 1,
+      "watches": 0
+    }
+  },
+  {
     "date": "2026-07-14",
     "timestamp": "2026-07-14 07:55 UTC",
     "regime": "Bullish",
