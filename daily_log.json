@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-07-17",
+    "timestamp": "2026-07-17 08:02 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 954.68,
+    "cash": 7.35,
+    "total_pnl": -45.32,
+    "open_positions": 4,
+    "win_rate": 0.2917,
+    "closed_today": [
+      {
+        "ticker": "ETH-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-07-16",
+        "exit_date": "2026-07-17",
+        "entry_price": 1908.5,
+        "exit_price": 1827.91,
+        "units": 0.06763528,
+        "pnl": -5.45,
+        "return": -0.0422,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.7443
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "AVGO",
+        "direction": "long",
+        "price": 374.45,
+        "units": 1,
+        "ml_score": 0.8129
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": 16.82,
+        "days_held": 15
+      },
+      {
+        "action": "HOLD",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.76,
+        "days_held": 3
+      },
+      {
+        "action": "HOLD",
+        "ticker": "IWDA.AS",
+        "direction": "long",
+        "unrealised_pnl": -0.03,
+        "days_held": 1
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "ETH-USD",
+        "direction": "long",
+        "pnl": -5.45,
+        "return": -0.0422,
+        "exit_reason": "Stop-loss",
+        "exit_price": 1827.91
+      },
+      {
+        "action": "OPEN",
+        "ticker": "AVGO",
+        "direction": "long",
+        "entry_price": 374.45,
+        "units": 1,
+        "stop": 363.2165,
+        "tp": 396.917,
+        "ml_score": 0.8129
+      }
+    ],
+    "signals_summary": {
+      "buys": 6,
+      "shorts": 0,
+      "watches": 11
+    }
+  },
+  {
     "date": "2026-07-16",
     "timestamp": "2026-07-16 08:05 UTC",
     "regime": "Bullish",
