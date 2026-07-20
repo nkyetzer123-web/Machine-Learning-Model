@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-07-20",
+    "timestamp": "2026-07-20 08:50 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 942.58,
+    "cash": 7.35,
+    "total_pnl": -57.42,
+    "open_positions": 4,
+    "win_rate": 0.2917,
+    "closed_today": [],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": 9.54,
+        "days_held": 18
+      },
+      {
+        "action": "HOLD",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.97,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "IWDA.AS",
+        "direction": "long",
+        "unrealised_pnl": -1.44,
+        "days_held": 4
+      },
+      {
+        "action": "HOLD",
+        "ticker": "AVGO",
+        "direction": "long",
+        "unrealised_pnl": -3.62,
+        "days_held": 3
+      }
+    ],
+    "signals_summary": {
+      "buys": 5,
+      "shorts": 0,
+      "watches": 14
+    }
+  },
+  {
     "date": "2026-07-17",
     "timestamp": "2026-07-17 08:02 UTC",
     "regime": "Bullish",
