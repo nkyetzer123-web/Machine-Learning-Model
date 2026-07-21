@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-07-21",
+    "timestamp": "2026-07-21 08:20 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 960.76,
+    "cash": 36.7,
+    "total_pnl": -39.24,
+    "open_positions": 4,
+    "win_rate": 0.32,
+    "closed_today": [
+      {
+        "ticker": "XRP-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-07-14",
+        "exit_date": "2026-07-21",
+        "entry_price": 1.0655,
+        "exit_price": 1.1354,
+        "units": 42.01318511,
+        "pnl": 2.94,
+        "return": 0.0656,
+        "exit_reason": "Take-profit",
+        "ml_score": 0.7666
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "ETH-USD",
+        "direction": "long",
+        "price": 1941.25,
+        "units": 0.00945213,
+        "ml_score": 0.6796
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": 18.01,
+        "days_held": 19
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "pnl": 2.94,
+        "return": 0.0656,
+        "exit_reason": "Take-profit",
+        "exit_price": 1.1354
+      },
+      {
+        "action": "HOLD",
+        "ticker": "IWDA.AS",
+        "direction": "long",
+        "unrealised_pnl": -1.03,
+        "days_held": 5
+      },
+      {
+        "action": "HOLD",
+        "ticker": "AVGO",
+        "direction": "long",
+        "unrealised_pnl": 3.71,
+        "days_held": 4
+      },
+      {
+        "action": "OPEN",
+        "ticker": "ETH-USD",
+        "direction": "long",
+        "entry_price": 1941.25,
+        "units": 0.00945213,
+        "stop": 1883.0125,
+        "tp": 2057.725,
+        "ml_score": 0.6796
+      }
+    ],
+    "signals_summary": {
+      "buys": 3,
+      "shorts": 0,
+      "watches": 19
+    }
+  },
+  {
     "date": "2026-07-20",
     "timestamp": "2026-07-20 08:50 UTC",
     "regime": "Bullish",
