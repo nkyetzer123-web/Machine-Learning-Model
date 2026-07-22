@@ -1,5 +1,104 @@
 [
   {
+    "date": "2026-07-22",
+    "timestamp": "2026-07-22 08:21 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 964.85,
+    "cash": 122.56,
+    "total_pnl": -35.15,
+    "open_positions": 5,
+    "win_rate": 0.3462,
+    "closed_today": [
+      {
+        "ticker": "MSFT",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-07-02",
+        "exit_date": "2026-07-22",
+        "entry_price": 384.28,
+        "exit_price": 397.75,
+        "units": 1,
+        "pnl": 13.47,
+        "return": 0.0351,
+        "exit_reason": "Hold period (20d)",
+        "ml_score": 0.7872
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "JNJ",
+        "direction": "long",
+        "price": 250.61,
+        "units": 1,
+        "ml_score": 0.8655
+      },
+      {
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "price": 1.1339,
+        "units": 54.0429468,
+        "ml_score": 0.687
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "MSFT",
+        "direction": "long",
+        "pnl": 13.47,
+        "return": 0.0351,
+        "exit_reason": "Hold period (20d)",
+        "exit_price": 397.75
+      },
+      {
+        "action": "HOLD",
+        "ticker": "IWDA.AS",
+        "direction": "long",
+        "unrealised_pnl": -0.54,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "AVGO",
+        "direction": "long",
+        "unrealised_pnl": 12.05,
+        "days_held": 5
+      },
+      {
+        "action": "HOLD",
+        "ticker": "ETH-USD",
+        "direction": "long",
+        "unrealised_pnl": -0.2,
+        "days_held": 1
+      },
+      {
+        "action": "OPEN",
+        "ticker": "JNJ",
+        "direction": "long",
+        "entry_price": 250.61,
+        "units": 1,
+        "stop": 243.0917,
+        "tp": 265.6466,
+        "ml_score": 0.8655
+      },
+      {
+        "action": "OPEN",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "entry_price": 1.1339,
+        "units": 54.0429468,
+        "stop": 1.0999,
+        "tp": 1.2019,
+        "ml_score": 0.687
+      }
+    ],
+    "signals_summary": {
+      "buys": 4,
+      "shorts": 0,
+      "watches": 18
+    }
+  },
+  {
     "date": "2026-07-21",
     "timestamp": "2026-07-21 08:20 UTC",
     "regime": "Bullish",
