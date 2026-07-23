@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-07-23",
+    "timestamp": "2026-07-23 08:23 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 980.47,
+    "cash": 122.56,
+    "total_pnl": -19.53,
+    "open_positions": 5,
+    "win_rate": 0.3462,
+    "closed_today": [],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "IWDA.AS",
+        "direction": "long",
+        "unrealised_pnl": -0.26,
+        "days_held": 7
+      },
+      {
+        "action": "HOLD",
+        "ticker": "AVGO",
+        "direction": "long",
+        "unrealised_pnl": 22.36,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "ETH-USD",
+        "direction": "long",
+        "unrealised_pnl": -0.21,
+        "days_held": 2
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": 5.02,
+        "days_held": 1
+      },
+      {
+        "action": "HOLD",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.02,
+        "days_held": 1
+      }
+    ],
+    "signals_summary": {
+      "buys": 3,
+      "shorts": 0,
+      "watches": 18
+    }
+  },
+  {
     "date": "2026-07-22",
     "timestamp": "2026-07-22 08:21 UTC",
     "regime": "Bullish",
