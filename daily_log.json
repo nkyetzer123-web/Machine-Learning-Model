@@ -1,5 +1,143 @@
 [
   {
+    "date": "2026-07-28",
+    "timestamp": "2026-07-28 08:26 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 971.24,
+    "cash": 49.45,
+    "total_pnl": -28.76,
+    "open_positions": 4,
+    "win_rate": 0.3448,
+    "closed_today": [
+      {
+        "ticker": "ETH-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-07-21",
+        "exit_date": "2026-07-28",
+        "entry_price": 1941.25,
+        "exit_price": 1880.77,
+        "units": 0.00945213,
+        "pnl": -0.57,
+        "return": -0.0312,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.6796
+      },
+      {
+        "ticker": "JNJ",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-07-22",
+        "exit_date": "2026-07-28",
+        "entry_price": 250.61,
+        "exit_price": 265.95,
+        "units": 1,
+        "pnl": 15.34,
+        "return": 0.0612,
+        "exit_reason": "Take-profit",
+        "ml_score": 0.8655
+      },
+      {
+        "ticker": "XRP-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-07-22",
+        "exit_date": "2026-07-28",
+        "entry_price": 1.1339,
+        "exit_price": 1.0545,
+        "units": 54.0429468,
+        "pnl": -4.29,
+        "return": -0.07,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.687
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "MSFT",
+        "direction": "long",
+        "price": 389.1,
+        "units": 1,
+        "ml_score": 0.829
+      },
+      {
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "price": 1.0545,
+        "units": 23.44687095,
+        "ml_score": 0.7706
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "IWDA.AS",
+        "direction": "long",
+        "unrealised_pnl": -1.54,
+        "days_held": 12
+      },
+      {
+        "action": "HOLD",
+        "ticker": "AVGO",
+        "direction": "long",
+        "unrealised_pnl": 8.77,
+        "days_held": 11
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "ETH-USD",
+        "direction": "long",
+        "pnl": -0.57,
+        "return": -0.0312,
+        "exit_reason": "Stop-loss",
+        "exit_price": 1880.77
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "JNJ",
+        "direction": "long",
+        "pnl": 15.34,
+        "return": 0.0612,
+        "exit_reason": "Take-profit",
+        "exit_price": 265.95
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "pnl": -4.29,
+        "return": -0.07,
+        "exit_reason": "Stop-loss",
+        "exit_price": 1.0545
+      },
+      {
+        "action": "OPEN",
+        "ticker": "MSFT",
+        "direction": "long",
+        "entry_price": 389.1,
+        "units": 1,
+        "stop": 377.427,
+        "tp": 412.446,
+        "ml_score": 0.829
+      },
+      {
+        "action": "OPEN",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "entry_price": 1.0545,
+        "units": 23.44687095,
+        "stop": 1.0229,
+        "tp": 1.1178,
+        "ml_score": 0.7706
+      }
+    ],
+    "signals_summary": {
+      "buys": 9,
+      "shorts": 0,
+      "watches": 13
+    }
+  },
+  {
     "date": "2026-07-27",
     "timestamp": "2026-07-27 09:41 UTC",
     "regime": "Bearish",
