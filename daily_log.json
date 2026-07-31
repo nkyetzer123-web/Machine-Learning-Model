@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-07-31",
+    "timestamp": "2026-07-31 08:42 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1037.28,
+    "cash": 244.73,
+    "total_pnl": 37.28,
+    "open_positions": 4,
+    "win_rate": 0.3667,
+    "closed_today": [
+      {
+        "ticker": "MSFT",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-07-28",
+        "exit_date": "2026-07-31",
+        "entry_price": 389.1,
+        "exit_price": 451.1,
+        "units": 1,
+        "pnl": 62.0,
+        "return": 0.1593,
+        "exit_reason": "Take-profit",
+        "ml_score": 0.829
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "JNJ",
+        "direction": "long",
+        "price": 255.82,
+        "units": 1,
+        "ml_score": 0.8013
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "IWDA.AS",
+        "direction": "long",
+        "unrealised_pnl": -2.6,
+        "days_held": 15
+      },
+      {
+        "action": "HOLD",
+        "ticker": "AVGO",
+        "direction": "long",
+        "unrealised_pnl": 13.39,
+        "days_held": 14
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "MSFT",
+        "direction": "long",
+        "pnl": 62.0,
+        "return": 0.1593,
+        "exit_reason": "Take-profit",
+        "exit_price": 451.1
+      },
+      {
+        "action": "HOLD",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.48,
+        "days_held": 3
+      },
+      {
+        "action": "OPEN",
+        "ticker": "JNJ",
+        "direction": "long",
+        "entry_price": 255.82,
+        "units": 1,
+        "stop": 248.1454,
+        "tp": 271.1692,
+        "ml_score": 0.8013
+      }
+    ],
+    "signals_summary": {
+      "buys": 14,
+      "shorts": 0,
+      "watches": 8
+    }
+  },
+  {
     "date": "2026-07-30",
     "timestamp": "2026-07-30 08:17 UTC",
     "regime": "Bullish",

@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 49.44945007347644,
+  "cash": 244.72944885277332,
   "open_positions": {
     "IWDA.AS": {
       "direction": "long",
@@ -22,16 +22,6 @@
       "ml_score": 0.8129,
       "asset_type": "stock"
     },
-    "MSFT": {
-      "direction": "long",
-      "entry_price": 389.1,
-      "units": 1,
-      "stop": 377.427,
-      "tp": 412.446,
-      "entry_date": "2026-07-28",
-      "ml_score": 0.829,
-      "asset_type": "stock"
-    },
     "XRP-USD": {
       "direction": "long",
       "entry_price": 1.0545,
@@ -41,6 +31,16 @@
       "entry_date": "2026-07-28",
       "ml_score": 0.7706,
       "asset_type": "crypto"
+    },
+    "JNJ": {
+      "direction": "long",
+      "entry_price": 255.82,
+      "units": 1,
+      "stop": 248.1454,
+      "tp": 271.1692,
+      "entry_date": "2026-07-31",
+      "ml_score": 0.8013,
+      "asset_type": "stock"
     }
   },
   "closed_trades": [
@@ -449,8 +449,22 @@
       "return": -0.07,
       "exit_reason": "Stop-loss",
       "ml_score": 0.687
+    },
+    {
+      "ticker": "MSFT",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-07-28",
+      "exit_date": "2026-07-31",
+      "entry_price": 389.1,
+      "exit_price": 451.1,
+      "units": 1,
+      "pnl": 62.0,
+      "return": 0.1593,
+      "exit_reason": "Take-profit",
+      "ml_score": 0.829
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-07-30 08:17 UTC"
+  "last_run": "2026-07-31 08:42 UTC"
 }
