@@ -1,5 +1,120 @@
 [
   {
+    "date": "2026-08-06",
+    "timestamp": "2026-08-06 08:27 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1073.46,
+    "cash": 63.62,
+    "total_pnl": 73.46,
+    "open_positions": 4,
+    "win_rate": 0.4062,
+    "closed_today": [
+      {
+        "ticker": "IWDA.AS",
+        "asset_type": "etf",
+        "direction": "long",
+        "entry_date": "2026-07-16",
+        "exit_date": "2026-08-06",
+        "entry_price": 126.29,
+        "exit_price": 128.26,
+        "units": 1,
+        "pnl": 1.97,
+        "return": 0.0156,
+        "exit_reason": "Hold period (21d)",
+        "ml_score": 0.8036
+      },
+      {
+        "ticker": "AVGO",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-07-17",
+        "exit_date": "2026-08-06",
+        "entry_price": 374.45,
+        "exit_price": 418.28,
+        "units": 1,
+        "pnl": 43.83,
+        "return": 0.1171,
+        "exit_reason": "Take-profit",
+        "ml_score": 0.8129
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "MSFT",
+        "direction": "long",
+        "price": 487.46,
+        "units": 1,
+        "ml_score": 0.7939
+      },
+      {
+        "ticker": "BA",
+        "direction": "long",
+        "price": 240.19,
+        "units": 1,
+        "ml_score": 0.7372
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "IWDA.AS",
+        "direction": "long",
+        "pnl": 1.97,
+        "return": 0.0156,
+        "exit_reason": "Hold period (21d)",
+        "exit_price": 128.26
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "AVGO",
+        "direction": "long",
+        "pnl": 43.83,
+        "return": 0.1171,
+        "exit_reason": "Take-profit",
+        "exit_price": 418.28
+      },
+      {
+        "action": "HOLD",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "unrealised_pnl": -0.12,
+        "days_held": 9
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": 1.77,
+        "days_held": 6
+      },
+      {
+        "action": "OPEN",
+        "ticker": "MSFT",
+        "direction": "long",
+        "entry_price": 487.46,
+        "units": 1,
+        "stop": 472.8362,
+        "tp": 516.7076,
+        "ml_score": 0.7939
+      },
+      {
+        "action": "OPEN",
+        "ticker": "BA",
+        "direction": "long",
+        "entry_price": 240.19,
+        "units": 1,
+        "stop": 232.9843,
+        "tp": 254.6014,
+        "ml_score": 0.7372
+      }
+    ],
+    "signals_summary": {
+      "buys": 9,
+      "shorts": 0,
+      "watches": 14
+    }
+  },
+  {
     "date": "2026-08-04",
     "timestamp": "2026-08-04 08:29 UTC",
     "regime": "Bearish",

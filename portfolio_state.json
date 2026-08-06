@@ -1,27 +1,7 @@
 {
   "start_capital": 1000,
-  "cash": 244.72944885277332,
+  "cash": 63.619448242421754,
   "open_positions": {
-    "IWDA.AS": {
-      "direction": "long",
-      "entry_price": 126.29,
-      "units": 1,
-      "stop": 122.5013,
-      "tp": 133.8674,
-      "entry_date": "2026-07-16",
-      "ml_score": 0.8036,
-      "asset_type": "etf"
-    },
-    "AVGO": {
-      "direction": "long",
-      "entry_price": 374.45,
-      "units": 1,
-      "stop": 363.2165,
-      "tp": 396.917,
-      "entry_date": "2026-07-17",
-      "ml_score": 0.8129,
-      "asset_type": "stock"
-    },
     "XRP-USD": {
       "direction": "long",
       "entry_price": 1.0545,
@@ -40,6 +20,26 @@
       "tp": 271.1692,
       "entry_date": "2026-07-31",
       "ml_score": 0.8013,
+      "asset_type": "stock"
+    },
+    "MSFT": {
+      "direction": "long",
+      "entry_price": 487.46,
+      "units": 1,
+      "stop": 472.8362,
+      "tp": 516.7076,
+      "entry_date": "2026-08-06",
+      "ml_score": 0.7939,
+      "asset_type": "stock"
+    },
+    "BA": {
+      "direction": "long",
+      "entry_price": 240.19,
+      "units": 1,
+      "stop": 232.9843,
+      "tp": 254.6014,
+      "entry_date": "2026-08-06",
+      "ml_score": 0.7372,
       "asset_type": "stock"
     }
   },
@@ -463,8 +463,36 @@
       "return": 0.1593,
       "exit_reason": "Take-profit",
       "ml_score": 0.829
+    },
+    {
+      "ticker": "IWDA.AS",
+      "asset_type": "etf",
+      "direction": "long",
+      "entry_date": "2026-07-16",
+      "exit_date": "2026-08-06",
+      "entry_price": 126.29,
+      "exit_price": 128.26,
+      "units": 1,
+      "pnl": 1.97,
+      "return": 0.0156,
+      "exit_reason": "Hold period (21d)",
+      "ml_score": 0.8036
+    },
+    {
+      "ticker": "AVGO",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-07-17",
+      "exit_date": "2026-08-06",
+      "entry_price": 374.45,
+      "exit_price": 418.28,
+      "units": 1,
+      "pnl": 43.83,
+      "return": 0.1171,
+      "exit_reason": "Take-profit",
+      "ml_score": 0.8129
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-08-04 08:29 UTC"
+  "last_run": "2026-08-06 08:27 UTC"
 }
