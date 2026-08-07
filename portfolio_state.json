@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 63.619448242421754,
+  "cash": 157.36944824242175,
   "open_positions": {
     "XRP-USD": {
       "direction": "long",
@@ -32,14 +32,14 @@
       "ml_score": 0.7939,
       "asset_type": "stock"
     },
-    "BA": {
+    "PEP": {
       "direction": "long",
-      "entry_price": 240.19,
+      "entry_price": 138.44,
       "units": 1,
-      "stop": 232.9843,
-      "tp": 254.6014,
-      "entry_date": "2026-08-06",
-      "ml_score": 0.7372,
+      "stop": 134.2868,
+      "tp": 146.7464,
+      "entry_date": "2026-08-07",
+      "ml_score": 0.7352,
       "asset_type": "stock"
     }
   },
@@ -491,8 +491,22 @@
       "return": 0.1171,
       "exit_reason": "Take-profit",
       "ml_score": 0.8129
+    },
+    {
+      "ticker": "BA",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-08-06",
+      "exit_date": "2026-08-07",
+      "entry_price": 240.19,
+      "exit_price": 232.19,
+      "units": 1,
+      "pnl": -8.0,
+      "return": -0.0333,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.7372
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-08-06 08:27 UTC"
+  "last_run": "2026-08-07 07:07 UTC"
 }

@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-08-07",
+    "timestamp": "2026-08-07 07:07 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1076.72,
+    "cash": 157.37,
+    "total_pnl": 76.72,
+    "open_positions": 4,
+    "win_rate": 0.3939,
+    "closed_today": [
+      {
+        "ticker": "BA",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-08-06",
+        "exit_date": "2026-08-07",
+        "entry_price": 240.19,
+        "exit_price": 232.19,
+        "units": 1,
+        "pnl": -8.0,
+        "return": -0.0333,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.7372
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "PEP",
+        "direction": "long",
+        "price": 138.44,
+        "units": 1,
+        "ml_score": 0.7352
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "unrealised_pnl": -0.66,
+        "days_held": 10
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": 1.16,
+        "days_held": 7
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": 12.4,
+        "days_held": 1
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "BA",
+        "direction": "long",
+        "pnl": -8.0,
+        "return": -0.0333,
+        "exit_reason": "Stop-loss",
+        "exit_price": 232.19
+      },
+      {
+        "action": "OPEN",
+        "ticker": "PEP",
+        "direction": "long",
+        "entry_price": 138.44,
+        "units": 1,
+        "stop": 134.2868,
+        "tp": 146.7464,
+        "ml_score": 0.7352
+      }
+    ],
+    "signals_summary": {
+      "buys": 9,
+      "shorts": 0,
+      "watches": 15
+    }
+  },
+  {
     "date": "2026-08-06",
     "timestamp": "2026-08-06 08:27 UTC",
     "regime": "Bullish",
