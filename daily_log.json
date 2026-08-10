@@ -1,5 +1,70 @@
 [
   {
+    "date": "2026-08-10",
+    "timestamp": "2026-08-10 07:22 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1079.95,
+    "cash": 45.52,
+    "total_pnl": 79.95,
+    "open_positions": 5,
+    "win_rate": 0.3939,
+    "closed_today": [],
+    "opened_today": [
+      {
+        "ticker": "WMT",
+        "direction": "long",
+        "price": 111.85,
+        "units": 1,
+        "ml_score": 0.6759
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "unrealised_pnl": -0.39,
+        "days_held": 13
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": 3.42,
+        "days_held": 10
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": 12.53,
+        "days_held": 4
+      },
+      {
+        "action": "HOLD",
+        "ticker": "PEP",
+        "direction": "long",
+        "unrealised_pnl": 0.58,
+        "days_held": 3
+      },
+      {
+        "action": "OPEN",
+        "ticker": "WMT",
+        "direction": "long",
+        "entry_price": 111.85,
+        "units": 1,
+        "stop": 108.4945,
+        "tp": 118.561,
+        "ml_score": 0.6759
+      }
+    ],
+    "signals_summary": {
+      "buys": 4,
+      "shorts": 0,
+      "watches": 19
+    }
+  },
+  {
     "date": "2026-08-07",
     "timestamp": "2026-08-07 07:07 UTC",
     "regime": "Bullish",

@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 157.36944824242175,
+  "cash": 45.51944976830066,
   "open_positions": {
     "XRP-USD": {
       "direction": "long",
@@ -40,6 +40,16 @@
       "tp": 146.7464,
       "entry_date": "2026-08-07",
       "ml_score": 0.7352,
+      "asset_type": "stock"
+    },
+    "WMT": {
+      "direction": "long",
+      "entry_price": 111.85,
+      "units": 1,
+      "stop": 108.4945,
+      "tp": 118.561,
+      "entry_date": "2026-08-10",
+      "ml_score": 0.6759,
       "asset_type": "stock"
     }
   },
@@ -508,5 +518,5 @@
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-08-07 07:07 UTC"
+  "last_run": "2026-08-10 07:22 UTC"
 }
