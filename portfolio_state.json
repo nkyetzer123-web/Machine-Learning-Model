@@ -1,17 +1,7 @@
 {
   "start_capital": 1000,
-  "cash": 45.51944976830066,
+  "cash": 69.07886480890565,
   "open_positions": {
-    "XRP-USD": {
-      "direction": "long",
-      "entry_price": 1.0545,
-      "units": 23.44687095,
-      "stop": 1.0229,
-      "tp": 1.1178,
-      "entry_date": "2026-07-28",
-      "ml_score": 0.7706,
-      "asset_type": "crypto"
-    },
     "JNJ": {
       "direction": "long",
       "entry_price": 255.82,
@@ -515,8 +505,22 @@
       "return": -0.0333,
       "exit_reason": "Stop-loss",
       "ml_score": 0.7372
+    },
+    {
+      "ticker": "XRP-USD",
+      "asset_type": "crypto",
+      "direction": "long",
+      "entry_date": "2026-07-28",
+      "exit_date": "2026-08-11",
+      "entry_price": 1.0545,
+      "exit_price": 1.0048,
+      "units": 23.44687095,
+      "pnl": -1.17,
+      "return": -0.0471,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.7706
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-08-10 07:22 UTC"
+  "last_run": "2026-08-11 06:58 UTC"
 }
