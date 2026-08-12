@@ -1,5 +1,70 @@
 [
   {
+    "date": "2026-08-12",
+    "timestamp": "2026-08-12 07:17 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1084.36,
+    "cash": 46.05,
+    "total_pnl": 84.36,
+    "open_positions": 5,
+    "win_rate": 0.3824,
+    "closed_today": [],
+    "opened_today": [
+      {
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "price": 1.0212,
+        "units": 22.54826634,
+        "ml_score": 0.7113
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": 3.98,
+        "days_held": 12
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": 16.35,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "PEP",
+        "direction": "long",
+        "unrealised_pnl": -0.03,
+        "days_held": 5
+      },
+      {
+        "action": "HOLD",
+        "ticker": "WMT",
+        "direction": "long",
+        "unrealised_pnl": 1.41,
+        "days_held": 2
+      },
+      {
+        "action": "OPEN",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "entry_price": 1.0212,
+        "units": 22.54826634,
+        "stop": 0.9906,
+        "tp": 1.0825,
+        "ml_score": 0.7113
+      }
+    ],
+    "signals_summary": {
+      "buys": 3,
+      "shorts": 0,
+      "watches": 19
+    }
+  },
+  {
     "date": "2026-08-11",
     "timestamp": "2026-08-11 06:58 UTC",
     "regime": "Bullish",
