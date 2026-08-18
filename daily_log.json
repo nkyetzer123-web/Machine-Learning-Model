@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-08-18",
+    "timestamp": "2026-08-18 06:34 UTC",
+    "regime": "Bearish",
+    "portfolio_value": NaN,
+    "cash": 46.05,
+    "total_pnl": NaN,
+    "open_positions": 5,
+    "win_rate": 0.3824,
+    "closed_today": [],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": NaN,
+        "days_held": 18
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": NaN,
+        "days_held": 12
+      },
+      {
+        "action": "HOLD",
+        "ticker": "PEP",
+        "direction": "long",
+        "unrealised_pnl": NaN,
+        "days_held": 11
+      },
+      {
+        "action": "HOLD",
+        "ticker": "WMT",
+        "direction": "long",
+        "unrealised_pnl": NaN,
+        "days_held": 8
+      },
+      {
+        "action": "HOLD",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "unrealised_pnl": -0.49,
+        "days_held": 6
+      }
+    ],
+    "signals_summary": {
+      "buys": 0,
+      "shorts": 0,
+      "watches": 0
+    }
+  },
+  {
     "date": "2026-08-17",
     "timestamp": "2026-08-17 06:43 UTC",
     "regime": "Bullish",
