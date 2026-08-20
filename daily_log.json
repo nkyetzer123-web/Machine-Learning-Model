@@ -1,5 +1,110 @@
 [
   {
+    "date": "2026-08-20",
+    "timestamp": "2026-08-20 06:37 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1085.61,
+    "cash": 192.22,
+    "total_pnl": 85.61,
+    "open_positions": 4,
+    "win_rate": 0.4167,
+    "closed_today": [
+      {
+        "ticker": "JNJ",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-07-31",
+        "exit_date": "2026-08-20",
+        "entry_price": 255.82,
+        "exit_price": 273.41,
+        "units": 1,
+        "pnl": 17.59,
+        "return": 0.0688,
+        "exit_reason": "Take-profit",
+        "ml_score": 0.8013
+      },
+      {
+        "ticker": "XRP-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-08-12",
+        "exit_date": "2026-08-20",
+        "entry_price": 1.0212,
+        "exit_price": 1.107,
+        "units": 22.54826634,
+        "pnl": 1.93,
+        "return": 0.084,
+        "exit_reason": "Take-profit",
+        "ml_score": 0.7113
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "MRK",
+        "direction": "long",
+        "price": 152.2,
+        "units": 1,
+        "ml_score": 0.876
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "JNJ",
+        "direction": "long",
+        "pnl": 17.59,
+        "return": 0.0688,
+        "exit_reason": "Take-profit",
+        "exit_price": 273.41
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": -3.15,
+        "days_held": 14
+      },
+      {
+        "action": "HOLD",
+        "ticker": "PEP",
+        "direction": "long",
+        "unrealised_pnl": 4.14,
+        "days_held": 13
+      },
+      {
+        "action": "HOLD",
+        "ticker": "WMT",
+        "direction": "long",
+        "unrealised_pnl": 2.45,
+        "days_held": 10
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "XRP-USD",
+        "direction": "long",
+        "pnl": 1.93,
+        "return": 0.084,
+        "exit_reason": "Take-profit",
+        "exit_price": 1.107
+      },
+      {
+        "action": "OPEN",
+        "ticker": "MRK",
+        "direction": "long",
+        "entry_price": 152.2,
+        "units": 1,
+        "stop": 147.634,
+        "tp": 161.332,
+        "ml_score": 0.876
+      }
+    ],
+    "signals_summary": {
+      "buys": 8,
+      "shorts": 0,
+      "watches": 11
+    }
+  },
+  {
     "date": "2026-08-19",
     "timestamp": "2026-08-19 06:35 UTC",
     "regime": "Bullish",
