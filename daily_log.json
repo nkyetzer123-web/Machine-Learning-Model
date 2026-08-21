@@ -1,5 +1,69 @@
 [
   {
+    "date": "2026-08-21",
+    "timestamp": "2026-08-21 06:37 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1068.28,
+    "cash": 296.06,
+    "total_pnl": 68.28,
+    "open_positions": 3,
+    "win_rate": 0.4054,
+    "closed_today": [
+      {
+        "ticker": "WMT",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-08-10",
+        "exit_date": "2026-08-21",
+        "entry_price": 111.85,
+        "exit_price": 103.84,
+        "units": 1,
+        "pnl": -8.01,
+        "return": -0.0716,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.6759
+      }
+    ],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": -6.31,
+        "days_held": 15
+      },
+      {
+        "action": "HOLD",
+        "ticker": "PEP",
+        "direction": "long",
+        "unrealised_pnl": 3.64,
+        "days_held": 14
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "WMT",
+        "direction": "long",
+        "pnl": -8.01,
+        "return": -0.0716,
+        "exit_reason": "Stop-loss",
+        "exit_price": 103.84
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MRK",
+        "direction": "long",
+        "unrealised_pnl": -3.21,
+        "days_held": 1
+      }
+    ],
+    "signals_summary": {
+      "buys": 9,
+      "shorts": 0,
+      "watches": 11
+    }
+  },
+  {
     "date": "2026-08-20",
     "timestamp": "2026-08-20 06:37 UTC",
     "regime": "Bullish",
