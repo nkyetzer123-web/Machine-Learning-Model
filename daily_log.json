@@ -1,5 +1,63 @@
 [
   {
+    "date": "2026-08-24",
+    "timestamp": "2026-08-24 06:47 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1075.33,
+    "cash": 81.86,
+    "total_pnl": 75.33,
+    "open_positions": 4,
+    "win_rate": 0.4054,
+    "closed_today": [],
+    "opened_today": [
+      {
+        "ticker": "MS",
+        "direction": "long",
+        "price": 214.2,
+        "units": 1,
+        "ml_score": 0.7531
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "MSFT",
+        "direction": "long",
+        "unrealised_pnl": -4.22,
+        "days_held": 18
+      },
+      {
+        "action": "HOLD",
+        "ticker": "PEP",
+        "direction": "long",
+        "unrealised_pnl": 5.04,
+        "days_held": 17
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MRK",
+        "direction": "long",
+        "unrealised_pnl": 0.35,
+        "days_held": 4
+      },
+      {
+        "action": "OPEN",
+        "ticker": "MS",
+        "direction": "long",
+        "entry_price": 214.2,
+        "units": 1,
+        "stop": 207.774,
+        "tp": 227.052,
+        "ml_score": 0.7531
+      }
+    ],
+    "signals_summary": {
+      "buys": 8,
+      "shorts": 0,
+      "watches": 11
+    }
+  },
+  {
     "date": "2026-08-21",
     "timestamp": "2026-08-21 06:37 UTC",
     "regime": "Bullish",
