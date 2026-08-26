@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-08-26",
+    "timestamp": "2026-08-26 06:40 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1089.06,
+    "cash": 216.83,
+    "total_pnl": 89.06,
+    "open_positions": 4,
+    "win_rate": 0.4211,
+    "closed_today": [
+      {
+        "ticker": "MSFT",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-08-06",
+        "exit_date": "2026-08-26",
+        "entry_price": 487.46,
+        "exit_price": 491.71,
+        "units": 1,
+        "pnl": 4.25,
+        "return": 0.0087,
+        "exit_reason": "Hold period (20d)",
+        "ml_score": 0.7939
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "AVGO",
+        "direction": "long",
+        "price": 356.74,
+        "units": 1,
+        "ml_score": 0.788
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "MSFT",
+        "direction": "long",
+        "pnl": 4.25,
+        "return": 0.0087,
+        "exit_reason": "Hold period (20d)",
+        "exit_price": 491.71
+      },
+      {
+        "action": "HOLD",
+        "ticker": "PEP",
+        "direction": "long",
+        "unrealised_pnl": 3.83,
+        "days_held": 19
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MRK",
+        "direction": "long",
+        "unrealised_pnl": 4.25,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MS",
+        "direction": "long",
+        "unrealised_pnl": 2.57,
+        "days_held": 2
+      },
+      {
+        "action": "OPEN",
+        "ticker": "AVGO",
+        "direction": "long",
+        "entry_price": 356.74,
+        "units": 1,
+        "stop": 346.0378,
+        "tp": 378.1444,
+        "ml_score": 0.788
+      }
+    ],
+    "signals_summary": {
+      "buys": 3,
+      "shorts": 0,
+      "watches": 14
+    }
+  },
+  {
     "date": "2026-08-25",
     "timestamp": "2026-08-25 06:38 UTC",
     "regime": "Bullish",
