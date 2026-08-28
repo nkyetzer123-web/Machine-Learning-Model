@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28 18:08 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1083.41,
+    "cash": 333.91,
+    "total_pnl": 83.41,
+    "open_positions": 3,
+    "win_rate": 0.4146,
+    "closed_today": [
+      {
+        "ticker": "MRK",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-08-20",
+        "exit_date": "2026-08-28",
+        "entry_price": 152.2,
+        "exit_price": 147.6133,
+        "units": 1,
+        "pnl": -4.59,
+        "return": -0.0301,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.876
+      },
+      {
+        "ticker": "BTC-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-08-27",
+        "exit_date": "2026-08-28",
+        "entry_price": 80682.8516,
+        "exit_price": 77788.5,
+        "units": 0.00147707,
+        "pnl": -4.28,
+        "return": -0.0359,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.6552
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "price": 77788.5,
+        "units": 0.00214625,
+        "ml_score": 0.6596
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "MRK",
+        "direction": "long",
+        "pnl": -4.59,
+        "return": -0.0301,
+        "exit_reason": "Stop-loss",
+        "exit_price": 147.6133
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MS",
+        "direction": "long",
+        "unrealised_pnl": 0.23,
+        "days_held": 4
+      },
+      {
+        "action": "HOLD",
+        "ticker": "AVGO",
+        "direction": "long",
+        "unrealised_pnl": 11.37,
+        "days_held": 2
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "pnl": -4.28,
+        "return": -0.0359,
+        "exit_reason": "Stop-loss",
+        "exit_price": 77788.5
+      },
+      {
+        "action": "OPEN",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "entry_price": 77788.5,
+        "units": 0.00214625,
+        "stop": 75454.845,
+        "tp": 82455.81,
+        "ml_score": 0.6596
+      }
+    ],
+    "signals_summary": {
+      "buys": 1,
+      "shorts": 0,
+      "watches": 21
+    }
+  },
+  {
     "date": "2026-08-27",
     "timestamp": "2026-08-27 17:15 UTC",
     "regime": "Bullish",

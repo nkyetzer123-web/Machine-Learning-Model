@@ -1,17 +1,7 @@
 {
   "start_capital": 1000,
-  "cash": 238.34929743458147,
+  "cash": 333.9080855133705,
   "open_positions": {
-    "MRK": {
-      "direction": "long",
-      "entry_price": 152.2,
-      "units": 1,
-      "stop": 147.634,
-      "tp": 161.332,
-      "entry_date": "2026-08-20",
-      "ml_score": 0.876,
-      "asset_type": "stock"
-    },
     "MS": {
       "direction": "long",
       "entry_price": 214.2,
@@ -34,12 +24,12 @@
     },
     "BTC-USD": {
       "direction": "long",
-      "entry_price": 80682.8516,
-      "units": 0.00147707,
-      "stop": 78262.366,
-      "tp": 85523.8227,
-      "entry_date": "2026-08-27",
-      "ml_score": 0.6552,
+      "entry_price": 77788.5,
+      "units": 0.00214625,
+      "stop": 75454.845,
+      "tp": 82455.81,
+      "entry_date": "2026-08-28",
+      "ml_score": 0.6596,
       "asset_type": "crypto"
     }
   },
@@ -589,8 +579,36 @@
       "return": 0.0163,
       "exit_reason": "Hold period (20d)",
       "ml_score": 0.7352
+    },
+    {
+      "ticker": "MRK",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-08-20",
+      "exit_date": "2026-08-28",
+      "entry_price": 152.2,
+      "exit_price": 147.6133,
+      "units": 1,
+      "pnl": -4.59,
+      "return": -0.0301,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.876
+    },
+    {
+      "ticker": "BTC-USD",
+      "asset_type": "crypto",
+      "direction": "long",
+      "entry_date": "2026-08-27",
+      "exit_date": "2026-08-28",
+      "entry_price": 80682.8516,
+      "exit_price": 77788.5,
+      "units": 0.00147707,
+      "pnl": -4.28,
+      "return": -0.0359,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.6552
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-08-27 17:15 UTC"
+  "last_run": "2026-08-28 18:08 UTC"
 }
