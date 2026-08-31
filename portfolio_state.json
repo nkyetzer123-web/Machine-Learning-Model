@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 333.9080855133705,
+  "cash": 65.86807696844863,
   "open_positions": {
     "MS": {
       "direction": "long",
@@ -31,6 +31,16 @@
       "entry_date": "2026-08-28",
       "ml_score": 0.6596,
       "asset_type": "crypto"
+    },
+    "JNJ": {
+      "direction": "long",
+      "entry_price": 268.04,
+      "units": 1,
+      "stop": 259.9988,
+      "tp": 284.1224,
+      "entry_date": "2026-08-31",
+      "ml_score": 0.7484,
+      "asset_type": "stock"
     }
   },
   "closed_trades": [
@@ -610,5 +620,5 @@
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-08-28 18:08 UTC"
+  "last_run": "2026-08-31 12:31 UTC"
 }
