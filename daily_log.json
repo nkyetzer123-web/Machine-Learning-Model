@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-09-01",
+    "timestamp": "2026-09-01 10:59 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1082.8,
+    "cash": 65.87,
+    "total_pnl": 82.8,
+    "open_positions": 4,
+    "win_rate": 0.4146,
+    "closed_today": [],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "MS",
+        "direction": "long",
+        "unrealised_pnl": -0.88,
+        "days_held": 8
+      },
+      {
+        "action": "HOLD",
+        "ticker": "AVGO",
+        "direction": "long",
+        "unrealised_pnl": 13.6,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.47,
+        "days_held": 4
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": -2.19,
+        "days_held": 1
+      }
+    ],
+    "signals_summary": {
+      "buys": 8,
+      "shorts": 0,
+      "watches": 11
+    }
+  },
+  {
     "date": "2026-08-31",
     "timestamp": "2026-08-31 12:31 UTC",
     "regime": "Bullish",
