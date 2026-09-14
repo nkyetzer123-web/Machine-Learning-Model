@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14 11:36 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1074.67,
+    "cash": 65.87,
+    "total_pnl": 74.67,
+    "open_positions": 4,
+    "win_rate": 0.4286,
+    "closed_today": [
+      {
+        "ticker": "MS",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-08-24",
+        "exit_date": "2026-09-14",
+        "entry_price": 214.2,
+        "exit_price": 214.38,
+        "units": 1,
+        "pnl": 0.18,
+        "return": 0.0008,
+        "exit_reason": "Hold period (21d)",
+        "ml_score": 0.7531
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "MS",
+        "direction": "long",
+        "price": 214.38,
+        "units": 1,
+        "ml_score": 0.7003
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "MS",
+        "direction": "long",
+        "pnl": 0.18,
+        "return": 0.0008,
+        "exit_reason": "Hold period (21d)",
+        "exit_price": 214.38
+      },
+      {
+        "action": "HOLD",
+        "ticker": "AVGO",
+        "direction": "long",
+        "unrealised_pnl": 5.25,
+        "days_held": 19
+      },
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": -0.1,
+        "days_held": 17
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": -2.46,
+        "days_held": 14
+      },
+      {
+        "action": "OPEN",
+        "ticker": "MS",
+        "direction": "long",
+        "entry_price": 214.38,
+        "units": 1,
+        "stop": 207.9486,
+        "tp": 227.2428,
+        "ml_score": 0.7003
+      }
+    ],
+    "signals_summary": {
+      "buys": 4,
+      "shorts": 0,
+      "watches": 13
+    }
+  },
+  {
     "date": "2026-09-11",
     "timestamp": "2026-09-11 10:30 UTC",
     "regime": "Bullish",
