@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-09-16",
+    "timestamp": "2026-09-16 10:45 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1041.56,
+    "cash": 235.8,
+    "total_pnl": 41.56,
+    "open_positions": 3,
+    "win_rate": 0.4091,
+    "closed_today": [
+      {
+        "ticker": "AVGO",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-08-26",
+        "exit_date": "2026-09-16",
+        "entry_price": 356.74,
+        "exit_price": 339.27,
+        "units": 1,
+        "pnl": -17.47,
+        "return": -0.049,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.788
+      },
+      {
+        "ticker": "MS",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-09-14",
+        "exit_date": "2026-09-16",
+        "entry_price": 214.38,
+        "exit_price": 206.28,
+        "units": 1,
+        "pnl": -8.1,
+        "return": -0.0378,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.7003
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "V",
+        "direction": "long",
+        "price": 375.62,
+        "units": 1,
+        "ml_score": 0.8236
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "AVGO",
+        "direction": "long",
+        "pnl": -17.47,
+        "return": -0.049,
+        "exit_reason": "Stop-loss",
+        "exit_price": 339.27
+      },
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": -4.02,
+        "days_held": 19
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": -0.84,
+        "days_held": 16
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "MS",
+        "direction": "long",
+        "pnl": -8.1,
+        "return": -0.0378,
+        "exit_reason": "Stop-loss",
+        "exit_price": 206.28
+      },
+      {
+        "action": "OPEN",
+        "ticker": "V",
+        "direction": "long",
+        "entry_price": 375.62,
+        "units": 1,
+        "stop": 364.3514,
+        "tp": 398.1572,
+        "ml_score": 0.8236
+      }
+    ],
+    "signals_summary": {
+      "buys": 7,
+      "shorts": 0,
+      "watches": 8
+    }
+  },
+  {
     "date": "2026-09-14",
     "timestamp": "2026-09-14 11:36 UTC",
     "regime": "Bullish",
