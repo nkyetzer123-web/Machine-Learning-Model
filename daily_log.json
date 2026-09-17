@@ -1,5 +1,80 @@
 [
   {
+    "date": "2026-09-17",
+    "timestamp": "2026-09-17 10:52 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1037.74,
+    "cash": 50.61,
+    "total_pnl": 37.74,
+    "open_positions": 3,
+    "win_rate": 0.4,
+    "closed_today": [
+      {
+        "ticker": "BTC-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-08-28",
+        "exit_date": "2026-09-17",
+        "entry_price": 77788.5,
+        "exit_price": 76285.2891,
+        "units": 0.00214625,
+        "pnl": -3.23,
+        "return": -0.0193,
+        "exit_reason": "Hold period (20d)",
+        "ml_score": 0.6596
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "JPM",
+        "direction": "long",
+        "price": 348.92,
+        "units": 1,
+        "ml_score": 0.8156
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "pnl": -3.23,
+        "return": -0.0193,
+        "exit_reason": "Hold period (20d)",
+        "exit_price": 76285.2891
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": -0.76,
+        "days_held": 17
+      },
+      {
+        "action": "HOLD",
+        "ticker": "V",
+        "direction": "long",
+        "unrealised_pnl": -4.69,
+        "days_held": 1
+      },
+      {
+        "action": "OPEN",
+        "ticker": "JPM",
+        "direction": "long",
+        "entry_price": 348.92,
+        "units": 1,
+        "stop": 338.4524,
+        "tp": 369.8552,
+        "ml_score": 0.8156
+      }
+    ],
+    "signals_summary": {
+      "buys": 6,
+      "shorts": 0,
+      "watches": 12
+    }
+  },
+  {
     "date": "2026-09-16",
     "timestamp": "2026-09-16 10:45 UTC",
     "regime": "Bullish",
