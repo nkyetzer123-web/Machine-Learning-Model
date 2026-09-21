@@ -1,5 +1,80 @@
 [
   {
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21 11:49 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1038.56,
+    "cash": 50.61,
+    "total_pnl": 38.56,
+    "open_positions": 3,
+    "win_rate": 0.413,
+    "closed_today": [
+      {
+        "ticker": "JNJ",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-08-31",
+        "exit_date": "2026-09-21",
+        "entry_price": 268.04,
+        "exit_price": 269.99,
+        "units": 1,
+        "pnl": 1.95,
+        "return": 0.0073,
+        "exit_reason": "Hold period (21d)",
+        "ml_score": 0.7484
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "JNJ",
+        "direction": "long",
+        "price": 269.99,
+        "units": 1,
+        "ml_score": 0.7299
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "JNJ",
+        "direction": "long",
+        "pnl": 1.95,
+        "return": 0.0073,
+        "exit_reason": "Hold period (21d)",
+        "exit_price": 269.99
+      },
+      {
+        "action": "HOLD",
+        "ticker": "V",
+        "direction": "long",
+        "unrealised_pnl": -7.33,
+        "days_held": 5
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JPM",
+        "direction": "long",
+        "unrealised_pnl": 0.75,
+        "days_held": 4
+      },
+      {
+        "action": "OPEN",
+        "ticker": "JNJ",
+        "direction": "long",
+        "entry_price": 269.99,
+        "units": 1,
+        "stop": 261.8903,
+        "tp": 286.1894,
+        "ml_score": 0.7299
+      }
+    ],
+    "signals_summary": {
+      "buys": 6,
+      "shorts": 0,
+      "watches": 9
+    }
+  },
+  {
     "date": "2026-09-18",
     "timestamp": "2026-09-18 10:27 UTC",
     "regime": "Bullish",

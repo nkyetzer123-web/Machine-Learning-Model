@@ -2,16 +2,6 @@
   "start_capital": 1000,
   "cash": 50.605357866886095,
   "open_positions": {
-    "JNJ": {
-      "direction": "long",
-      "entry_price": 268.04,
-      "units": 1,
-      "stop": 259.9988,
-      "tp": 284.1224,
-      "entry_date": "2026-08-31",
-      "ml_score": 0.7484,
-      "asset_type": "stock"
-    },
     "V": {
       "direction": "long",
       "entry_price": 375.62,
@@ -30,6 +20,16 @@
       "tp": 369.8552,
       "entry_date": "2026-09-17",
       "ml_score": 0.8156,
+      "asset_type": "stock"
+    },
+    "JNJ": {
+      "direction": "long",
+      "entry_price": 269.99,
+      "units": 1,
+      "stop": 261.8903,
+      "tp": 286.1894,
+      "entry_date": "2026-09-21",
+      "ml_score": 0.7299,
       "asset_type": "stock"
     }
   },
@@ -663,8 +663,22 @@
       "return": -0.0193,
       "exit_reason": "Hold period (20d)",
       "ml_score": 0.6596
+    },
+    {
+      "ticker": "JNJ",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-08-31",
+      "exit_date": "2026-09-21",
+      "entry_price": 268.04,
+      "exit_price": 269.99,
+      "units": 1,
+      "pnl": 1.95,
+      "return": 0.0073,
+      "exit_reason": "Hold period (21d)",
+      "ml_score": 0.7484
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-09-18 10:27 UTC"
+  "last_run": "2026-09-21 11:49 UTC"
 }
