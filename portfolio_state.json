@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 50.60535786688615,
+  "cash": 33.73690802444841,
   "open_positions": {
     "JNJ": {
       "direction": "long",
@@ -31,6 +31,16 @@
       "entry_date": "2026-09-24",
       "ml_score": 0.7352,
       "asset_type": "stock"
+    },
+    "BNB-USD": {
+      "direction": "long",
+      "entry_price": 769.95,
+      "units": 0.0219085,
+      "stop": 746.8515,
+      "tp": 816.147,
+      "entry_date": "2026-09-30",
+      "ml_score": 0.6649,
+      "asset_type": "crypto"
     }
   },
   "closed_trades": [
@@ -708,5 +718,5 @@
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-09-29 12:00 UTC"
+  "last_run": "2026-09-30 11:49 UTC"
 }

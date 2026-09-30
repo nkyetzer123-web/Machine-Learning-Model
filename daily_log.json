@@ -1,5 +1,63 @@
 [
   {
+    "date": "2026-09-30",
+    "timestamp": "2026-09-30 11:49 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1019.04,
+    "cash": 33.74,
+    "total_pnl": 19.04,
+    "open_positions": 4,
+    "win_rate": 0.3958,
+    "closed_today": [],
+    "opened_today": [
+      {
+        "ticker": "BNB-USD",
+        "direction": "long",
+        "price": 769.95,
+        "units": 0.0219085,
+        "ml_score": 0.6649
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": -2.42,
+        "days_held": 9
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JPM",
+        "direction": "long",
+        "unrealised_pnl": -2.55,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "V",
+        "direction": "long",
+        "unrealised_pnl": 4.36,
+        "days_held": 6
+      },
+      {
+        "action": "OPEN",
+        "ticker": "BNB-USD",
+        "direction": "long",
+        "entry_price": 769.95,
+        "units": 0.0219085,
+        "stop": 746.8515,
+        "tp": 816.147,
+        "ml_score": 0.6649
+      }
+    ],
+    "signals_summary": {
+      "buys": 4,
+      "shorts": 0,
+      "watches": 8
+    }
+  },
+  {
     "date": "2026-09-29",
     "timestamp": "2026-09-29 12:00 UTC",
     "regime": "Bullish",
