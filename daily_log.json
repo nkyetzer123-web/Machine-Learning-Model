@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-10-01",
+    "timestamp": "2026-10-01 12:18 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1005.51,
+    "cash": 33.74,
+    "total_pnl": 5.51,
+    "open_positions": 4,
+    "win_rate": 0.3958,
+    "closed_today": [],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": -5.25,
+        "days_held": 10
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JPM",
+        "direction": "long",
+        "unrealised_pnl": -6.7,
+        "days_held": 7
+      },
+      {
+        "action": "HOLD",
+        "ticker": "V",
+        "direction": "long",
+        "unrealised_pnl": -2.19,
+        "days_held": 7
+      },
+      {
+        "action": "HOLD",
+        "ticker": "BNB-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.0,
+        "days_held": 1
+      }
+    ],
+    "signals_summary": {
+      "buys": 5,
+      "shorts": 0,
+      "watches": 7
+    }
+  },
+  {
     "date": "2026-09-30",
     "timestamp": "2026-09-30 11:49 UTC",
     "regime": "Bullish",
