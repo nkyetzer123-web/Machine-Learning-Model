@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-10-02",
+    "timestamp": "2026-10-02 11:47 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1002.48,
+    "cash": 44.17,
+    "total_pnl": 2.48,
+    "open_positions": 4,
+    "win_rate": 0.3878,
+    "closed_today": [
+      {
+        "ticker": "JNJ",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-09-21",
+        "exit_date": "2026-10-02",
+        "entry_price": 269.99,
+        "exit_price": 258.66,
+        "units": 1,
+        "pnl": -11.33,
+        "return": -0.042,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.7299
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "AMZN",
+        "direction": "long",
+        "price": 248.23,
+        "units": 1,
+        "ml_score": 0.762
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "JNJ",
+        "direction": "long",
+        "pnl": -11.33,
+        "return": -0.042,
+        "exit_reason": "Stop-loss",
+        "exit_price": 258.66
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JPM",
+        "direction": "long",
+        "unrealised_pnl": -4.35,
+        "days_held": 8
+      },
+      {
+        "action": "HOLD",
+        "ticker": "V",
+        "direction": "long",
+        "unrealised_pnl": -1.67,
+        "days_held": 8
+      },
+      {
+        "action": "HOLD",
+        "ticker": "BNB-USD",
+        "direction": "long",
+        "unrealised_pnl": 0.19,
+        "days_held": 2
+      },
+      {
+        "action": "OPEN",
+        "ticker": "AMZN",
+        "direction": "long",
+        "entry_price": 248.23,
+        "units": 1,
+        "stop": 240.7831,
+        "tp": 263.1238,
+        "ml_score": 0.762
+      }
+    ],
+    "signals_summary": {
+      "buys": 5,
+      "shorts": 0,
+      "watches": 5
+    }
+  },
+  {
     "date": "2026-10-01",
     "timestamp": "2026-10-01 12:18 UTC",
     "regime": "Bullish",
