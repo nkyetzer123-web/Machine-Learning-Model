@@ -1,5 +1,69 @@
 [
   {
+    "date": "2026-10-09",
+    "timestamp": "2026-10-09 12:29 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1021.0,
+    "cash": 60.42,
+    "total_pnl": 21.0,
+    "open_positions": 3,
+    "win_rate": 0.38,
+    "closed_today": [
+      {
+        "ticker": "BNB-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-09-30",
+        "exit_date": "2026-10-09",
+        "entry_price": 769.95,
+        "exit_price": 741.9,
+        "units": 0.0219085,
+        "pnl": -0.61,
+        "return": -0.0364,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.6649
+      }
+    ],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "JPM",
+        "direction": "long",
+        "unrealised_pnl": -6.11,
+        "days_held": 15
+      },
+      {
+        "action": "HOLD",
+        "ticker": "V",
+        "direction": "long",
+        "unrealised_pnl": 13.58,
+        "days_held": 15
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "BNB-USD",
+        "direction": "long",
+        "pnl": -0.61,
+        "return": -0.0364,
+        "exit_reason": "Stop-loss",
+        "exit_price": 741.9
+      },
+      {
+        "action": "HOLD",
+        "ticker": "AMZN",
+        "direction": "long",
+        "unrealised_pnl": 5.83,
+        "days_held": 7
+      }
+    ],
+    "signals_summary": {
+      "buys": 2,
+      "shorts": 0,
+      "watches": 9
+    }
+  },
+  {
     "date": "2026-10-08",
     "timestamp": "2026-10-08 12:42 UTC",
     "regime": "Bullish",
