@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 60.420832643894244,
+  "cash": 448.3208265403786,
   "open_positions": {
     "JPM": {
       "direction": "long",
@@ -10,16 +10,6 @@
       "tp": 357.7818,
       "entry_date": "2026-09-24",
       "ml_score": 0.8411,
-      "asset_type": "stock"
-    },
-    "V": {
-      "direction": "long",
-      "entry_price": 361.52,
-      "units": 1,
-      "stop": 350.6744,
-      "tp": 383.2112,
-      "entry_date": "2026-09-24",
-      "ml_score": 0.7352,
       "asset_type": "stock"
     },
     "AMZN": {
@@ -733,8 +723,22 @@
       "return": -0.0364,
       "exit_reason": "Stop-loss",
       "ml_score": 0.6649
+    },
+    {
+      "ticker": "V",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-09-24",
+      "exit_date": "2026-10-12",
+      "entry_price": 361.52,
+      "exit_price": 387.9,
+      "units": 1,
+      "pnl": 26.38,
+      "return": 0.073,
+      "exit_reason": "Take-profit",
+      "ml_score": 0.7352
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-10-09 12:29 UTC"
+  "last_run": "2026-10-12 14:15 UTC"
 }

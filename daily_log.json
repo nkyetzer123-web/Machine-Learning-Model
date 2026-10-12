@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-10-12",
+    "timestamp": "2026-10-12 14:15 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1043.33,
+    "cash": 448.32,
+    "total_pnl": 43.33,
+    "open_positions": 2,
+    "win_rate": 0.3922,
+    "closed_today": [
+      {
+        "ticker": "V",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-09-24",
+        "exit_date": "2026-10-12",
+        "entry_price": 361.52,
+        "exit_price": 387.9,
+        "units": 1,
+        "pnl": 26.38,
+        "return": 0.073,
+        "exit_reason": "Take-profit",
+        "ml_score": 0.7352
+      }
+    ],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "JPM",
+        "direction": "long",
+        "unrealised_pnl": -3.05,
+        "days_held": 18
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "V",
+        "direction": "long",
+        "pnl": 26.38,
+        "return": 0.073,
+        "exit_reason": "Take-profit",
+        "exit_price": 387.9
+      },
+      {
+        "action": "HOLD",
+        "ticker": "AMZN",
+        "direction": "long",
+        "unrealised_pnl": 12.29,
+        "days_held": 10
+      }
+    ],
+    "signals_summary": {
+      "buys": 0,
+      "shorts": 0,
+      "watches": 12
+    }
+  },
+  {
     "date": "2026-10-09",
     "timestamp": "2026-10-09 12:29 UTC",
     "regime": "Bullish",
