@@ -1,5 +1,73 @@
 [
   {
+    "date": "2026-10-13",
+    "timestamp": "2026-10-13 13:25 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1042.15,
+    "cash": 21.75,
+    "total_pnl": 42.15,
+    "open_positions": 4,
+    "win_rate": 0.3922,
+    "closed_today": [],
+    "opened_today": [
+      {
+        "ticker": "ABBV",
+        "direction": "long",
+        "price": 281.12,
+        "units": 1,
+        "ml_score": 0.7691
+      },
+      {
+        "ticker": "MRK",
+        "direction": "long",
+        "price": 145.45,
+        "units": 1,
+        "ml_score": 0.7034
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "JPM",
+        "direction": "long",
+        "unrealised_pnl": -3.23,
+        "days_held": 19
+      },
+      {
+        "action": "HOLD",
+        "ticker": "AMZN",
+        "direction": "long",
+        "unrealised_pnl": 11.3,
+        "days_held": 11
+      },
+      {
+        "action": "OPEN",
+        "ticker": "ABBV",
+        "direction": "long",
+        "entry_price": 281.12,
+        "units": 1,
+        "stop": 272.6864,
+        "tp": 297.9872,
+        "ml_score": 0.7691
+      },
+      {
+        "action": "OPEN",
+        "ticker": "MRK",
+        "direction": "long",
+        "entry_price": 145.45,
+        "units": 1,
+        "stop": 141.0865,
+        "tp": 154.177,
+        "ml_score": 0.7034
+      }
+    ],
+    "signals_summary": {
+      "buys": 4,
+      "shorts": 0,
+      "watches": 12
+    }
+  },
+  {
     "date": "2026-10-12",
     "timestamp": "2026-10-12 14:15 UTC",
     "regime": "Bullish",

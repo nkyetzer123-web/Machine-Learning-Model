@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 448.3208265403786,
+  "cash": 21.75083447494893,
   "open_positions": {
     "JPM": {
       "direction": "long",
@@ -20,6 +20,26 @@
       "tp": 263.1238,
       "entry_date": "2026-10-02",
       "ml_score": 0.762,
+      "asset_type": "stock"
+    },
+    "ABBV": {
+      "direction": "long",
+      "entry_price": 281.12,
+      "units": 1,
+      "stop": 272.6864,
+      "tp": 297.9872,
+      "entry_date": "2026-10-13",
+      "ml_score": 0.7691,
+      "asset_type": "stock"
+    },
+    "MRK": {
+      "direction": "long",
+      "entry_price": 145.45,
+      "units": 1,
+      "stop": 141.0865,
+      "tp": 154.177,
+      "entry_date": "2026-10-13",
+      "ml_score": 0.7034,
       "asset_type": "stock"
     }
   },
@@ -740,5 +760,5 @@
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-10-12 14:15 UTC"
+  "last_run": "2026-10-13 13:25 UTC"
 }
