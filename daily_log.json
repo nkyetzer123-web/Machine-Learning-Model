@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-10-14",
+    "timestamp": "2026-10-14 11:03 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1028.1,
+    "cash": 21.75,
+    "total_pnl": 28.1,
+    "open_positions": 4,
+    "win_rate": 0.3846,
+    "closed_today": [
+      {
+        "ticker": "JPM",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-09-24",
+        "exit_date": "2026-10-14",
+        "entry_price": 337.53,
+        "exit_price": 331.43,
+        "units": 1,
+        "pnl": -6.1,
+        "return": -0.0181,
+        "exit_reason": "Hold period (20d)",
+        "ml_score": 0.8411
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "JPM",
+        "direction": "long",
+        "price": 331.43,
+        "units": 1,
+        "ml_score": 0.8635
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "JPM",
+        "direction": "long",
+        "pnl": -6.1,
+        "return": -0.0181,
+        "exit_reason": "Hold period (20d)",
+        "exit_price": 331.43
+      },
+      {
+        "action": "HOLD",
+        "ticker": "AMZN",
+        "direction": "long",
+        "unrealised_pnl": 10.35,
+        "days_held": 12
+      },
+      {
+        "action": "HOLD",
+        "ticker": "ABBV",
+        "direction": "long",
+        "unrealised_pnl": -6.76,
+        "days_held": 1
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MRK",
+        "direction": "long",
+        "unrealised_pnl": -3.47,
+        "days_held": 1
+      },
+      {
+        "action": "OPEN",
+        "ticker": "JPM",
+        "direction": "long",
+        "entry_price": 331.43,
+        "units": 1,
+        "stop": 321.4871,
+        "tp": 351.3158,
+        "ml_score": 0.8635
+      }
+    ],
+    "signals_summary": {
+      "buys": 3,
+      "shorts": 0,
+      "watches": 12
+    }
+  },
+  {
     "date": "2026-10-13",
     "timestamp": "2026-10-13 13:25 UTC",
     "regime": "Bullish",
