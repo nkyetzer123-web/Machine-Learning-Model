@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 284.12082959213643,
+  "cash": 20.57082654037862,
   "open_positions": {
     "ABBV": {
       "direction": "long",
@@ -12,16 +12,6 @@
       "ml_score": 0.7691,
       "asset_type": "stock"
     },
-    "MRK": {
-      "direction": "long",
-      "entry_price": 145.45,
-      "units": 1,
-      "stop": 141.0865,
-      "tp": 154.177,
-      "entry_date": "2026-10-13",
-      "ml_score": 0.7034,
-      "asset_type": "stock"
-    },
     "JPM": {
       "direction": "long",
       "entry_price": 331.43,
@@ -30,6 +20,16 @@
       "tp": 351.3158,
       "entry_date": "2026-10-14",
       "ml_score": 0.8635,
+      "asset_type": "stock"
+    },
+    "V": {
+      "direction": "long",
+      "entry_price": 404.16,
+      "units": 1,
+      "stop": 392.0352,
+      "tp": 428.4096,
+      "entry_date": "2026-10-27",
+      "ml_score": 0.792,
       "asset_type": "stock"
     }
   },
@@ -775,8 +775,22 @@
       "return": 0.057,
       "exit_reason": "Hold period (20d)",
       "ml_score": 0.762
+    },
+    {
+      "ticker": "MRK",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-10-13",
+      "exit_date": "2026-10-27",
+      "entry_price": 145.45,
+      "exit_price": 140.61,
+      "units": 1,
+      "pnl": -4.84,
+      "return": -0.0333,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.7034
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-10-26 12:08 UTC"
+  "last_run": "2026-10-27 11:30 UTC"
 }
