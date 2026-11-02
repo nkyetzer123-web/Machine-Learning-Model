@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-11-02",
+    "timestamp": "2026-11-02 14:37 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1068.88,
+    "cash": 309.27,
+    "total_pnl": 68.88,
+    "open_positions": 2,
+    "win_rate": 0.4,
+    "closed_today": [
+      {
+        "ticker": "ABBV",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-10-13",
+        "exit_date": "2026-11-02",
+        "entry_price": 281.12,
+        "exit_price": 288.7,
+        "units": 1,
+        "pnl": 7.58,
+        "return": 0.027,
+        "exit_reason": "Hold period (20d)",
+        "ml_score": 0.7691
+      }
+    ],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "ABBV",
+        "direction": "long",
+        "pnl": 7.58,
+        "return": 0.027,
+        "exit_reason": "Hold period (20d)",
+        "exit_price": 288.7
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JPM",
+        "direction": "long",
+        "unrealised_pnl": 9.24,
+        "days_held": 19
+      },
+      {
+        "action": "HOLD",
+        "ticker": "V",
+        "direction": "long",
+        "unrealised_pnl": 14.78,
+        "days_held": 6
+      }
+    ],
+    "signals_summary": {
+      "buys": 0,
+      "shorts": 0,
+      "watches": 20
+    }
+  },
+  {
     "date": "2026-10-30",
     "timestamp": "2026-10-30 12:01 UTC",
     "regime": "Bullish",

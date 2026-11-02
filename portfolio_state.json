@@ -1,17 +1,7 @@
 {
   "start_capital": 1000,
-  "cash": 20.57082654037862,
+  "cash": 309.27083874740987,
   "open_positions": {
-    "ABBV": {
-      "direction": "long",
-      "entry_price": 281.12,
-      "units": 1,
-      "stop": 272.6864,
-      "tp": 297.9872,
-      "entry_date": "2026-10-13",
-      "ml_score": 0.7691,
-      "asset_type": "stock"
-    },
     "JPM": {
       "direction": "long",
       "entry_price": 331.43,
@@ -789,8 +779,22 @@
       "return": -0.0333,
       "exit_reason": "Stop-loss",
       "ml_score": 0.7034
+    },
+    {
+      "ticker": "ABBV",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-10-13",
+      "exit_date": "2026-11-02",
+      "entry_price": 281.12,
+      "exit_price": 288.7,
+      "units": 1,
+      "pnl": 7.58,
+      "return": 0.027,
+      "exit_reason": "Hold period (20d)",
+      "ml_score": 0.7691
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-10-30 12:01 UTC"
+  "last_run": "2026-11-02 14:37 UTC"
 }
