@@ -1,5 +1,90 @@
 [
   {
+    "date": "2026-11-03",
+    "timestamp": "2026-11-03 13:30 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1075.36,
+    "cash": 315.76,
+    "total_pnl": 75.36,
+    "open_positions": 3,
+    "win_rate": 0.4107,
+    "closed_today": [
+      {
+        "ticker": "JPM",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-10-14",
+        "exit_date": "2026-11-03",
+        "entry_price": 331.43,
+        "exit_price": 340.58,
+        "units": 1,
+        "pnl": 9.15,
+        "return": 0.0276,
+        "exit_reason": "Hold period (20d)",
+        "ml_score": 0.8635
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "MRK",
+        "direction": "long",
+        "price": 148.36,
+        "units": 1,
+        "ml_score": 0.8506
+      },
+      {
+        "ticker": "MS",
+        "direction": "long",
+        "price": 185.73,
+        "units": 1,
+        "ml_score": 0.7999
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "JPM",
+        "direction": "long",
+        "pnl": 9.15,
+        "return": 0.0276,
+        "exit_reason": "Hold period (20d)",
+        "exit_price": 340.58
+      },
+      {
+        "action": "HOLD",
+        "ticker": "V",
+        "direction": "long",
+        "unrealised_pnl": 21.35,
+        "days_held": 7
+      },
+      {
+        "action": "OPEN",
+        "ticker": "MRK",
+        "direction": "long",
+        "entry_price": 148.36,
+        "units": 1,
+        "stop": 143.9092,
+        "tp": 157.2616,
+        "ml_score": 0.8506
+      },
+      {
+        "action": "OPEN",
+        "ticker": "MS",
+        "direction": "long",
+        "entry_price": 185.73,
+        "units": 1,
+        "stop": 180.1581,
+        "tp": 196.8738,
+        "ml_score": 0.7999
+      }
+    ],
+    "signals_summary": {
+      "buys": 12,
+      "shorts": 0,
+      "watches": 8
+    }
+  },
+  {
     "date": "2026-11-02",
     "timestamp": "2026-11-02 14:37 UTC",
     "regime": "Bullish",

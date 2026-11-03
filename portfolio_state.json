@@ -1,17 +1,7 @@
 {
   "start_capital": 1000,
-  "cash": 309.27083874740987,
+  "cash": 315.7608289817849,
   "open_positions": {
-    "JPM": {
-      "direction": "long",
-      "entry_price": 331.43,
-      "units": 1,
-      "stop": 321.4871,
-      "tp": 351.3158,
-      "entry_date": "2026-10-14",
-      "ml_score": 0.8635,
-      "asset_type": "stock"
-    },
     "V": {
       "direction": "long",
       "entry_price": 404.16,
@@ -20,6 +10,26 @@
       "tp": 428.4096,
       "entry_date": "2026-10-27",
       "ml_score": 0.792,
+      "asset_type": "stock"
+    },
+    "MRK": {
+      "direction": "long",
+      "entry_price": 148.36,
+      "units": 1,
+      "stop": 143.9092,
+      "tp": 157.2616,
+      "entry_date": "2026-11-03",
+      "ml_score": 0.8506,
+      "asset_type": "stock"
+    },
+    "MS": {
+      "direction": "long",
+      "entry_price": 185.73,
+      "units": 1,
+      "stop": 180.1581,
+      "tp": 196.8738,
+      "entry_date": "2026-11-03",
+      "ml_score": 0.7999,
       "asset_type": "stock"
     }
   },
@@ -793,8 +803,22 @@
       "return": 0.027,
       "exit_reason": "Hold period (20d)",
       "ml_score": 0.7691
+    },
+    {
+      "ticker": "JPM",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-10-14",
+      "exit_date": "2026-11-03",
+      "entry_price": 331.43,
+      "exit_price": 340.58,
+      "units": 1,
+      "pnl": 9.15,
+      "return": 0.0276,
+      "exit_reason": "Hold period (20d)",
+      "ml_score": 0.8635
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-11-02 14:37 UTC"
+  "last_run": "2026-11-03 13:30 UTC"
 }
