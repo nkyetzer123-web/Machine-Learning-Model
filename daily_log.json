@@ -1,5 +1,63 @@
 [
   {
+    "date": "2026-11-04",
+    "timestamp": "2026-11-04 13:41 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1066.94,
+    "cash": 109.07,
+    "total_pnl": 66.94,
+    "open_positions": 4,
+    "win_rate": 0.4107,
+    "closed_today": [],
+    "opened_today": [
+      {
+        "ticker": "NVDA",
+        "direction": "long",
+        "price": 206.69,
+        "units": 1,
+        "ml_score": 0.823
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "V",
+        "direction": "long",
+        "unrealised_pnl": 16.26,
+        "days_held": 8
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MRK",
+        "direction": "long",
+        "unrealised_pnl": -3.69,
+        "days_held": 1
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MS",
+        "direction": "long",
+        "unrealised_pnl": 0.36,
+        "days_held": 1
+      },
+      {
+        "action": "OPEN",
+        "ticker": "NVDA",
+        "direction": "long",
+        "entry_price": 206.69,
+        "units": 1,
+        "stop": 200.4893,
+        "tp": 219.0914,
+        "ml_score": 0.823
+      }
+    ],
+    "signals_summary": {
+      "buys": 8,
+      "shorts": 0,
+      "watches": 11
+    }
+  },
+  {
     "date": "2026-11-03",
     "timestamp": "2026-11-03 13:30 UTC",
     "regime": "Bullish",

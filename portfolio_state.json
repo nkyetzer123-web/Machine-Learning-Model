@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 315.7608289817849,
+  "cash": 109.07082654037868,
   "open_positions": {
     "V": {
       "direction": "long",
@@ -30,6 +30,16 @@
       "tp": 196.8738,
       "entry_date": "2026-11-03",
       "ml_score": 0.7999,
+      "asset_type": "stock"
+    },
+    "NVDA": {
+      "direction": "long",
+      "entry_price": 206.69,
+      "units": 1,
+      "stop": 200.4893,
+      "tp": 219.0914,
+      "entry_date": "2026-11-04",
+      "ml_score": 0.823,
       "asset_type": "stock"
     }
   },
@@ -820,5 +830,5 @@
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-11-03 13:30 UTC"
+  "last_run": "2026-11-04 13:41 UTC"
 }
