@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-11-05",
+    "timestamp": "2026-11-05 13:54 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1090.1,
+    "cash": 420.29,
+    "total_pnl": 90.1,
+    "open_positions": 3,
+    "win_rate": 0.4138,
+    "closed_today": [
+      {
+        "ticker": "V",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-10-27",
+        "exit_date": "2026-11-05",
+        "entry_price": 404.16,
+        "exit_price": 436.57,
+        "units": 1,
+        "pnl": 32.41,
+        "return": 0.0802,
+        "exit_reason": "Take-profit",
+        "ml_score": 0.792
+      },
+      {
+        "ticker": "NVDA",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-11-04",
+        "exit_date": "2026-11-05",
+        "entry_price": 206.69,
+        "exit_price": 200.13,
+        "units": 1,
+        "pnl": -6.56,
+        "return": -0.0317,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.823
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "AVGO",
+        "direction": "long",
+        "price": 325.48,
+        "units": 1,
+        "ml_score": 0.7964
+      }
+    ],
+    "actions": [
+      {
+        "action": "CLOSE",
+        "ticker": "V",
+        "direction": "long",
+        "pnl": 32.41,
+        "return": 0.0802,
+        "exit_reason": "Take-profit",
+        "exit_price": 436.57
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MRK",
+        "direction": "long",
+        "unrealised_pnl": 2.0,
+        "days_held": 2
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MS",
+        "direction": "long",
+        "unrealised_pnl": 8.24,
+        "days_held": 2
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "NVDA",
+        "direction": "long",
+        "pnl": -6.56,
+        "return": -0.0317,
+        "exit_reason": "Stop-loss",
+        "exit_price": 200.13
+      },
+      {
+        "action": "OPEN",
+        "ticker": "AVGO",
+        "direction": "long",
+        "entry_price": 325.48,
+        "units": 1,
+        "stop": 315.7156,
+        "tp": 345.0088,
+        "ml_score": 0.7964
+      }
+    ],
+    "signals_summary": {
+      "buys": 9,
+      "shorts": 0,
+      "watches": 8
+    }
+  },
+  {
     "date": "2026-11-04",
     "timestamp": "2026-11-04 13:41 UTC",
     "regime": "Bullish",
