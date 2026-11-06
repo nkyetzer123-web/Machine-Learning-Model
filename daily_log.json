@@ -1,5 +1,80 @@
 [
   {
+    "date": "2026-11-06",
+    "timestamp": "2026-11-06 13:39 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1041.2,
+    "cash": 439.5,
+    "total_pnl": 41.2,
+    "open_positions": 3,
+    "win_rate": 0.4068,
+    "closed_today": [
+      {
+        "ticker": "AVGO",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-11-05",
+        "exit_date": "2026-11-06",
+        "entry_price": 325.48,
+        "exit_price": 291.53,
+        "units": 1,
+        "pnl": -33.95,
+        "return": -0.1043,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.7964
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "JNJ",
+        "direction": "long",
+        "price": 272.32,
+        "units": 1,
+        "ml_score": 0.7835
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "MRK",
+        "direction": "long",
+        "unrealised_pnl": -1.42,
+        "days_held": 3
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MS",
+        "direction": "long",
+        "unrealised_pnl": -3.29,
+        "days_held": 3
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "AVGO",
+        "direction": "long",
+        "pnl": -33.95,
+        "return": -0.1043,
+        "exit_reason": "Stop-loss",
+        "exit_price": 291.53
+      },
+      {
+        "action": "OPEN",
+        "ticker": "JNJ",
+        "direction": "long",
+        "entry_price": 272.32,
+        "units": 1,
+        "stop": 264.1504,
+        "tp": 288.6592,
+        "ml_score": 0.7835
+      }
+    ],
+    "signals_summary": {
+      "buys": 8,
+      "shorts": 0,
+      "watches": 11
+    }
+  },
+  {
     "date": "2026-11-05",
     "timestamp": "2026-11-05 13:54 UTC",
     "regime": "Bullish",
