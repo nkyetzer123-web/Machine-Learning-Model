@@ -1,5 +1,63 @@
 [
   {
+    "date": "2026-11-09",
+    "timestamp": "2026-11-09 14:59 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1051.64,
+    "cash": 293.0,
+    "total_pnl": 51.64,
+    "open_positions": 4,
+    "win_rate": 0.4068,
+    "closed_today": [],
+    "opened_today": [
+      {
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "price": 74743.6875,
+        "units": 0.00196004,
+        "ml_score": 0.699
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "MRK",
+        "direction": "long",
+        "unrealised_pnl": -1.52,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MS",
+        "direction": "long",
+        "unrealised_pnl": 1.98,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": 5.28,
+        "days_held": 3
+      },
+      {
+        "action": "OPEN",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "entry_price": 74743.6875,
+        "units": 0.00196004,
+        "stop": 72501.3769,
+        "tp": 79228.3088,
+        "ml_score": 0.699
+      }
+    ],
+    "signals_summary": {
+      "buys": 1,
+      "shorts": 0,
+      "watches": 16
+    }
+  },
+  {
     "date": "2026-11-06",
     "timestamp": "2026-11-06 13:39 UTC",
     "regime": "Bullish",
