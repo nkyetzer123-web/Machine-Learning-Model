@@ -1,5 +1,63 @@
 [
   {
+    "date": "2026-11-13",
+    "timestamp": "2026-11-13 13:50 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1053.39,
+    "cash": 289.16,
+    "total_pnl": 53.39,
+    "open_positions": 4,
+    "win_rate": 0.4,
+    "closed_today": [],
+    "opened_today": [
+      {
+        "ticker": "BNB-USD",
+        "direction": "long",
+        "price": 644.77,
+        "units": 0.22423884,
+        "ml_score": 0.6958
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "MRK",
+        "direction": "long",
+        "unrealised_pnl": -1.41,
+        "days_held": 10
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MS",
+        "direction": "long",
+        "unrealised_pnl": 3.44,
+        "days_held": 10
+      },
+      {
+        "action": "HOLD",
+        "ticker": "JNJ",
+        "direction": "long",
+        "unrealised_pnl": 11.2,
+        "days_held": 7
+      },
+      {
+        "action": "OPEN",
+        "ticker": "BNB-USD",
+        "direction": "long",
+        "entry_price": 644.77,
+        "units": 0.22423884,
+        "stop": 625.4269,
+        "tp": 683.4562,
+        "ml_score": 0.6958
+      }
+    ],
+    "signals_summary": {
+      "buys": 4,
+      "shorts": 0,
+      "watches": 14
+    }
+  },
+  {
     "date": "2026-11-12",
     "timestamp": "2026-11-12 14:31 UTC",
     "regime": "Bullish",
