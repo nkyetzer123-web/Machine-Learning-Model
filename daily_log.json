@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-11-16",
+    "timestamp": "2026-11-16 14:35 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1049.5,
+    "cash": 474.78,
+    "total_pnl": 49.5,
+    "open_positions": 3,
+    "win_rate": 0.4032,
+    "closed_today": [
+      {
+        "ticker": "JNJ",
+        "asset_type": "stock",
+        "direction": "long",
+        "entry_date": "2026-11-06",
+        "exit_date": "2026-11-16",
+        "entry_price": 272.32,
+        "exit_price": 289.69,
+        "units": 1,
+        "pnl": 17.37,
+        "return": 0.0638,
+        "exit_reason": "Take-profit",
+        "ml_score": 0.7835
+      },
+      {
+        "ticker": "BNB-USD",
+        "asset_type": "crypto",
+        "direction": "long",
+        "entry_date": "2026-11-13",
+        "exit_date": "2026-11-16",
+        "entry_price": 644.77,
+        "exit_price": 594.52,
+        "units": 0.22423884,
+        "pnl": -11.27,
+        "return": -0.0779,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.6958
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "price": 65152.2891,
+        "units": 0.00364361,
+        "ml_score": 0.7683
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "MRK",
+        "direction": "long",
+        "unrealised_pnl": 0.87,
+        "days_held": 13
+      },
+      {
+        "action": "HOLD",
+        "ticker": "MS",
+        "direction": "long",
+        "unrealised_pnl": 2.37,
+        "days_held": 13
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "JNJ",
+        "direction": "long",
+        "pnl": 17.37,
+        "return": 0.0638,
+        "exit_reason": "Take-profit",
+        "exit_price": 289.69
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "BNB-USD",
+        "direction": "long",
+        "pnl": -11.27,
+        "return": -0.0779,
+        "exit_reason": "Stop-loss",
+        "exit_price": 594.52
+      },
+      {
+        "action": "OPEN",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "entry_price": 65152.2891,
+        "units": 0.00364361,
+        "stop": 63197.7204,
+        "tp": 69061.4264,
+        "ml_score": 0.7683
+      }
+    ],
+    "signals_summary": {
+      "buys": 1,
+      "shorts": 0,
+      "watches": 17
+    }
+  },
+  {
     "date": "2026-11-13",
     "timestamp": "2026-11-13 13:50 UTC",
     "regime": "Bullish",
