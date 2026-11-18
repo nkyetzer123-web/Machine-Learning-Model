@@ -1,17 +1,7 @@
 {
   "start_capital": 1000,
-  "cash": 474.7799121456131,
+  "cash": 615.8999072628005,
   "open_positions": {
-    "MRK": {
-      "direction": "long",
-      "entry_price": 148.36,
-      "units": 1,
-      "stop": 143.9092,
-      "tp": 157.2616,
-      "entry_date": "2026-11-03",
-      "ml_score": 0.8506,
-      "asset_type": "stock"
-    },
     "MS": {
       "direction": "long",
       "entry_price": 185.73,
@@ -901,8 +891,22 @@
       "return": -0.0779,
       "exit_reason": "Stop-loss",
       "ml_score": 0.6958
+    },
+    {
+      "ticker": "MRK",
+      "asset_type": "stock",
+      "direction": "long",
+      "entry_date": "2026-11-03",
+      "exit_date": "2026-11-18",
+      "entry_price": 148.36,
+      "exit_price": 141.12,
+      "units": 1,
+      "pnl": -7.24,
+      "return": -0.0488,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.8506
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-11-17 15:25 UTC"
+  "last_run": "2026-11-18 14:59 UTC"
 }
