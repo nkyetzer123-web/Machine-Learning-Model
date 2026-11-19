@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-11-19",
+    "timestamp": "2026-11-19 15:07 UTC",
+    "regime": "Bullish",
+    "portfolio_value": 1030.34,
+    "cash": 615.9,
+    "total_pnl": 30.34,
+    "open_positions": 2,
+    "win_rate": 0.3968,
+    "closed_today": [],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "MS",
+        "direction": "long",
+        "unrealised_pnl": -3.58,
+        "days_held": 16
+      },
+      {
+        "action": "HOLD",
+        "ticker": "BTC-USD",
+        "direction": "long",
+        "unrealised_pnl": -5.1,
+        "days_held": 3
+      }
+    ],
+    "signals_summary": {
+      "buys": 1,
+      "shorts": 0,
+      "watches": 19
+    }
+  },
+  {
     "date": "2026-11-18",
     "timestamp": "2026-11-18 14:59 UTC",
     "regime": "Bullish",
