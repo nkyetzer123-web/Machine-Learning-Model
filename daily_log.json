@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-11-26",
+    "timestamp": "2026-11-26 16:16 UTC",
+    "regime": "Bearish",
+    "portfolio_value": 999.39,
+    "cash": 1012.09,
+    "total_pnl": -0.61,
+    "open_positions": 4,
+    "win_rate": 0.3846,
+    "closed_today": [],
+    "opened_today": [],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "VUSA.L",
+        "direction": "short",
+        "unrealised_pnl": -4.43,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "IWDA.AS",
+        "direction": "short",
+        "unrealised_pnl": -4.06,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "CVX",
+        "direction": "short",
+        "unrealised_pnl": -3.67,
+        "days_held": 6
+      },
+      {
+        "action": "HOLD",
+        "ticker": "WMT",
+        "direction": "short",
+        "unrealised_pnl": -0.55,
+        "days_held": 2
+      }
+    ],
+    "signals_summary": {
+      "buys": 0,
+      "shorts": 5,
+      "watches": 0
+    }
+  },
+  {
     "date": "2026-11-25",
     "timestamp": "2026-11-25 16:42 UTC",
     "regime": "Bearish",
