@@ -1,6 +1,6 @@
 {
   "start_capital": 1000,
-  "cash": 1012.0944665010427,
+  "cash": 1005.3244634492848,
   "open_positions": {
     "VUSA.L": {
       "direction": "short",
@@ -22,16 +22,6 @@
       "ml_score": 0.1855,
       "asset_type": "etf"
     },
-    "CVX": {
-      "direction": "short",
-      "entry_price": 207.28,
-      "units": 1,
-      "stop": 213.4984,
-      "tp": 194.8432,
-      "entry_date": "2026-11-20",
-      "ml_score": 0.2212,
-      "asset_type": "stock"
-    },
     "WMT": {
       "direction": "short",
       "entry_price": 131.665,
@@ -40,6 +30,16 @@
       "tp": 123.7651,
       "entry_date": "2026-11-24",
       "ml_score": 0.2105,
+      "asset_type": "stock"
+    },
+    "CVX": {
+      "direction": "short",
+      "entry_price": 214.05,
+      "units": 1,
+      "stop": 220.4715,
+      "tp": 201.207,
+      "entry_date": "2026-11-27",
+      "ml_score": 0.2548,
       "asset_type": "stock"
     }
   },
@@ -953,8 +953,22 @@
       "return": -0.0556,
       "exit_reason": "Stop-loss",
       "ml_score": 0.7683
+    },
+    {
+      "ticker": "CVX",
+      "asset_type": "stock",
+      "direction": "short",
+      "entry_date": "2026-11-20",
+      "exit_date": "2026-11-27",
+      "entry_price": 207.28,
+      "exit_price": 214.05,
+      "units": 1,
+      "pnl": -6.77,
+      "return": -0.0327,
+      "exit_reason": "Stop-loss",
+      "ml_score": 0.2212
     }
   ],
   "created": "2026-05-14",
-  "last_run": "2026-11-26 16:16 UTC"
+  "last_run": "2026-11-27 16:00 UTC"
 }

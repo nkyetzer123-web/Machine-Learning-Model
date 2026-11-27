@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-11-27",
+    "timestamp": "2026-11-27 16:00 UTC",
+    "regime": "Bearish",
+    "portfolio_value": 992.39,
+    "cash": 1005.32,
+    "total_pnl": -7.61,
+    "open_positions": 4,
+    "win_rate": 0.3788,
+    "closed_today": [
+      {
+        "ticker": "CVX",
+        "asset_type": "stock",
+        "direction": "short",
+        "entry_date": "2026-11-20",
+        "exit_date": "2026-11-27",
+        "entry_price": 207.28,
+        "exit_price": 214.05,
+        "units": 1,
+        "pnl": -6.77,
+        "return": -0.0327,
+        "exit_reason": "Stop-loss",
+        "ml_score": 0.2212
+      }
+    ],
+    "opened_today": [
+      {
+        "ticker": "CVX",
+        "direction": "short",
+        "price": 214.05,
+        "units": 1,
+        "ml_score": 0.2548
+      }
+    ],
+    "actions": [
+      {
+        "action": "HOLD",
+        "ticker": "VUSA.L",
+        "direction": "short",
+        "unrealised_pnl": -6.05,
+        "days_held": 7
+      },
+      {
+        "action": "HOLD",
+        "ticker": "IWDA.AS",
+        "direction": "short",
+        "unrealised_pnl": -6.18,
+        "days_held": 7
+      },
+      {
+        "action": "CLOSE",
+        "ticker": "CVX",
+        "direction": "short",
+        "pnl": -6.77,
+        "return": -0.0327,
+        "exit_reason": "Stop-loss",
+        "exit_price": 214.05
+      },
+      {
+        "action": "HOLD",
+        "ticker": "WMT",
+        "direction": "short",
+        "unrealised_pnl": -0.71,
+        "days_held": 3
+      },
+      {
+        "action": "OPEN",
+        "ticker": "CVX",
+        "direction": "short",
+        "entry_price": 214.05,
+        "units": 1,
+        "stop": 220.4715,
+        "tp": 201.207,
+        "ml_score": 0.2548
+      }
+    ],
+    "signals_summary": {
+      "buys": 0,
+      "shorts": 7,
+      "watches": 0
+    }
+  },
+  {
     "date": "2026-11-26",
     "timestamp": "2026-11-26 16:16 UTC",
     "regime": "Bearish",
